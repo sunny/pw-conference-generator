@@ -20,7 +20,7 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
-          use_insecure_cipher: true
+          passphrase: ${{ secrets.DEPLOY_PASSPHRASE }}
           rm: true
           source: www/
           target: ${{ secrets.DEPLOY_PATH }}
