@@ -16,7 +16,7 @@ jobs:
       # Build
       - name: Build
         run: |
-          echo "Building stuff..."
+          echo "Building stuff... to ${{ secrets.DEPLOY_KEY }}"
 
       # Copy files via SSH
       - name: Copying files
@@ -25,7 +25,6 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
-          passphrase: ${{ secrets.DEPLOY_PASSPHRASE }}
           rm: true
           source: www/
           target: ${{ secrets.DEPLOY_PATH }}
