@@ -24,3 +24,4 @@ jobs:
           rm: true
           source: www/
           target: ${{ secrets.DEPLOY_PATH }}
+          strip_components: 1 # remove "www/" on target
