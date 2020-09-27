@@ -76,7 +76,7 @@ start:
 - votre site web est-il <adjectif_singulier>, <adjectif_singulier> et <adjectif_singulier> pour tous ?
 - "soyez <adjectif_pluriel> : construisez votre <techno> (fin)"
 - "<techno> / <techno> : bousculez vos habitudes !"
-- tester son <techno>, c’est possible !
+- tester <techno>, c’est possible !
 - <techno>, <quelquechose> et <quelquechose> <fin>
 - vivre avec <quelquechose_pluriel>
 - <quelquechose> selon le W3C
@@ -112,8 +112,10 @@ quelquechose:
 quelquechose_singulier:
 - un modèle pour <quelquechose>
 - le design (adjectif_masculin)
-- l’accessibilité de (quelquechose)
-- la qualité de (quelquechose)
+- l’accessibilité
+- l’accessibilité de <quelquechose>
+- la qualité
+- la qualité de <quelquechose>
 - la revue de code (adjectif_feminin)
 - la documentation (adjectif_feminin)
 - la décentralisation (adjectif_feminin)
@@ -216,7 +218,7 @@ techno:
 - React Native
 - Node.js
 - PouchDB
-- NPM
+- npm
 - NVDA
 - WebGL
 - OpenID
