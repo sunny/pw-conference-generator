@@ -10,11 +10,14 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
 }
+
 .container {
   height: 100vh;
   width: 100vw;
-  padding: 1em;
+  padding: 4em;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -23,7 +26,7 @@ html, body {
 }
 
 .conferenceName {
-  font: xxx-large "PT Sans Narrow", "Helvetica Neue", "Helvetica", Arial,
+  font: 4.5rem "PT Sans Narrow", "Helvetica Neue", "Helvetica", Arial,
 sans-serif;
   font-weight: bold;
   margin: 0 auto .25em;
@@ -31,7 +34,6 @@ sans-serif;
   flex-grow: 1;
   display: flex;
   align-items: center;
-  text-align: center;
 }
 
 .btn {
@@ -49,4 +51,21 @@ sans-serif;
   text-decoration: none;
   text-align: center;
   flex-grow: 0;
+}
+
+.explanation {
+  font-size: 1.2rem;
+  padding: 1em;
+  background: #eee;
+}
+
+.explanation__content {
+  font-size: 1.2rem;
+  max-width: 40em;
+  margin: 2em auto;
+}
+
+a {
+  color: #0172f0;
+  font-weight: bold;
 }
