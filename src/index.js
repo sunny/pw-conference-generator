@@ -71,6 +71,7 @@ const fixTypos = (text) => {
     .replace(/ de les /g, " des ")
     .replace(/ de des /g, " des ")
     .replace(/ le ([aA])/g, " l’$1")
+    .replace(/ de é/g, " d’é")
 }
 
 const randomInteger = (min, max) => {
