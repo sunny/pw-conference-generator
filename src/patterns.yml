@@ -38,12 +38,13 @@ start:
 - le charme de <quelquechose> (fin)
 - revue de <quelquechose>
 - demain, <quelquechose>
-- le secret de <quelquechose>
+- le secret de <quelquechose> (fin)
 - souriez, <quelquechose_pluriel> deviennent réalité
+- souriez, <quelquechose> devient réalité
 - rendez-vous avec <quelquechose>
 - l’épopée de <quelquechose> (quelquepart)
 - <quelquechose> de demain dans le web d’aujourd’hui (fin)
-- concevoir <quelquechose> <fin>
+- concevoir <quelquechose> (quelquepart) <fin>
 - guide de survie de <quelquechose> (fin)
 - 3 méthodes pour <verbe>
 - anatomie de <quelquechose> <fin>
@@ -63,8 +64,8 @@ start:
 - <quelquechose>, reprendre le contrôle de <quelquechose>
 - <quelquechose>, un modèle transversal pour <quelquechose>
 - <quelquechose> 2.0
-- vers une bonne pratique de <quelquechose>
-- "découper <quelquechose> : Pourquoi ? Comment ?"
+- vers une bonne pratique de <quelquechose> (quelquepart)
+- "découper <quelquechose> : pourquoi ? Comment ?"
 - <quelquechose>, <quelquechose>, <quelquechose>, faut-il réinventer <quelquechose_singulier> pour éviter la dystopie ?
 - le jour où l’on n’aura plus besoin de <quelquechose>
 - "évaluer <quelquechose> : des méthodes simples et efficaces"
@@ -93,10 +94,13 @@ start:
 - <techno>, <quelquechose> simple et <adjectif_singulier>
 - <quelquechose>… après tout, pourquoi pas ?
 - <techno>, <quelquechose> à l’heure de <quelquechose>
+- <techno>, <techno>, <techno>, 😅
+- <quelquechose>, ou <quelquechose> ? Ça dépend.
 
 article:
 - le
 - mon
+- votre
 
 quelquechose:
 - <quelquechose_singulier>
@@ -160,6 +164,10 @@ quelquechose_singulier:
 - l’humanité
 - le greenwashing
 - l’anthropocène
+- votre CTO
+- votre équipe
+- le télétravail
+- le présentiel
 
 quelquechose_pluriel:
 - les obstacles sur le chemin de <quelquechose>
@@ -187,6 +195,11 @@ quelquechose_pluriel:
 - les GAFAM
 - les réseaux sociaux
 - les PDF
+- les décideurs
+- les développeurs
+- les intégrateurs
+- les vieux de la vieille
+- les stagiaires
 
 quelquechose_pluriel_feminin:
 - les compétences
@@ -195,6 +208,8 @@ quelquechose_pluriel_feminin:
 - les documentations
 - les données graphiques
 - les bases de données
+- les développeuses
+- les intégratrices
 
 techno:
 - React
@@ -212,7 +227,6 @@ techno:
 - SASS
 - RGAA 3.0
 - Web Component
-- Blockchain
 - HTML5
 - JavaScript
 - ARIA
@@ -435,6 +449,7 @@ plus_loin:
 - quand on débute
 - en fin de carrière
 - pour un monde plus <adjectif_masculin>
+- en instantané
 
 quelquepart:
 - chez Orange France
@@ -449,6 +464,9 @@ quelquepart:
 - dans une grande entreprise
 - dans l’indifférence totale
 - dans le back-office de WordPress
+- en télétravail
+- à distance
+- en peer 2 peer
 
 plus_loin_ou_quelquepart:
 - <plus_loin>
@@ -489,3 +507,4 @@ fin:
 - ": où en est-on ? Que peut-on faire ?"
 - ", c’est pas aussi simple qu'on le croit"
 - ": un petit pas pour l’homme, un grand pas pour <quelquechose>"
+- ": pourquoi ? Comment ?"
