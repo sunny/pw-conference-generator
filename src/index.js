@@ -58,7 +58,7 @@ const fixWhitespace = (text) => {
   return text
     .replace(/\s+/g, " ")
     .replace(/ ([…,])/g, "$1")
-    .replace(/ ([:?])/g, "\xa0$1")
+    .replace(/ ([:?!])/g, "\xa0$1")
     .trim();
 }
 
