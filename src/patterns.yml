@@ -71,7 +71,7 @@ start:
 - "<techno> fait pousser mes tomates [quelquepart]"
 - "<quelquechose> et comment on l’évite [fin]"
 - "créer un clone de <techno> en <techno> [fin]"
-- "votre site web est-il <adjectif_tous_genres>, <adjectif_tous_genres> et <adjectif_tous_genres> pour tous ?"
+- "votre site web est-il <adjectif_masculin>, <adjectif_masculin> et <adjectif_masculin> pour tous ?"
 - "soyez <adjectif_tous_genres_pluriel> : construisez votre <techno> [fin]"
 - "<techno> / <techno> : bousculez vos habitudes !"
 - "tester <techno>, c’est possible !"
@@ -286,17 +286,6 @@ adjectif_feminin:
 - "déstructurée"
 - "généralisée"
 - "isolée"
-
-adjectif_tous_genres:
-- "<adjectif_masculin>"
-- "<adjectif_masculin>"
-- "<adjectif_masculin>"
-- "<adjectif_feminin>"
-- "<adjectif_feminin>"
-- "<adjectif_feminin>"
-- "<adjectif_singulier>"
-- "<adjectif_singulier>"
-- "<adjectif_singulier>"
 
 adjectif_singulier:
 - "<adjectif_masculin>"
