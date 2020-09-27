@@ -70,7 +70,7 @@ const fixTypos = (text) => {
     .replace(/ à les /g, " aux ")
     .replace(/ de les /g, " des ")
     .replace(/ de des /g, " des ")
-    .replace(/ le ([aA])/g, " l’$1")
+    .replace(/ le ([aAeEiIoOuUu])/g, " l’$1")
     .replace(/ de é/g, " d’é")
 }
 
