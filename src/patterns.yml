@@ -22,7 +22,8 @@ start:
 - "<quelquechose> : introduction à <quelquechose_singulier>"
 - "RGPD : <start>"
 - "WCAG 2.1 : <start>"
-- Bien choisir <quelquechose>
+- bien choisir <quelquechose_singulier>
+- trucs et astuces pour <verbe>
 - <quelquechose_pluriel_feminin> sont elles <adjectif_feminin_pluriel> ?
 - le charme <de_quelquechose> (fin)
 - revue <de_quelquechose>
@@ -39,12 +40,15 @@ start:
 - anatomie <de_quelquechose> <fin>
 - retour d'expérience sur <quelquechose>
 - <quelquechose>, <quelquechose> et vous
-- Ne passons pas à côté <de_quelquechose>
-- Questionnements sur <quelquechose> <fin>
-- Pourquoi <quelquechose_singulier> devrait s'intéresser à <le_quelquechose>
-- Les coulisses <de_quelquechose> <quelquepart>
+- ne passons pas à côté <de_quelquechose>
+- questionnements sur <quelquechose> <fin>
+- pourquoi <quelquechose_singulier> devrait s'intéresser à <le_quelquechose>
+- les coulisses <de_quelquechose> <quelquepart>
+- peut-on réellement <verbe> ?
+- y a-t-il de la place pour <verbe> <quelquepart> ?
 - vers l'infini et au delà <de_quelquechose>
 - <quelquechose>, reprendre le contrôle <de_quelquechose>
+- "<quelquechose> : comment <verbe>"
 
 de_quelquechose:
 - d'un modèle pour <quelquechose>
@@ -72,6 +76,7 @@ quelquechose_singulier:
 - la blockchain (adjectif_feminin)
 - la donnée (adjectif_feminin)
 - l'open-source
+- le marketing (adjectif_masculin)
 - la sécurité (adjectif_feminin)
 - la vie privée (adjectif_feminin)
 - la santé (adjectif_feminin)
@@ -85,6 +90,8 @@ quelquechose_pluriel:
 - les compétences (adjectif_feminin_pluriel)
 - les APIs web (adjectif_feminin_pluriel)
 - les sites statiques (adjectif_masculin_pluriel)
+- les bonnes pratiques (adjectif_feminin_pluriel)
+- les cookies (adjectif_masculin_pluriel)
 - les supports multimédias (adjectif_masculin_pluriel)
 - les objects connectés (adjectif_masculin_pluriel)
 - les lecteurs d'écran (adjectif_masculin_pluriel)
@@ -126,6 +133,9 @@ adjectif_singulier:
 - junior
 - au féminin
 - numérique
+- d'aujourd'hui
+- "2.0"
+- hybride
 - incontournable
 - lisible
 - sous surveillance
@@ -158,6 +168,8 @@ adjectif_pluriel:
 
 verbe:
 - gérer la production (plus_loin)
+- gérer <quelquechose>
+- comprendre <quelquechose>
 - surmonter <quelquechose>
 - définir <quelquechose>
 - déployer <quelquechose>
@@ -175,6 +187,7 @@ plus_loin:
 - à grande échelle
 - en agence
 - du futur
+- à distance
 - avec HTML et CSS
 - en mode projet
 - au delà des spécifications
@@ -186,6 +199,7 @@ quelquepart:
 - chez Orange France
 - en France
 - dans l'industrie
+- dans le web
 - chez les graphistes
 - en production
 
@@ -204,6 +218,7 @@ fin:
 - "… et c'est pas si facile !"
 - ": la partie cachée de l'iceberg"
 - ": entre réalité et perception"
+- ", pour quoi faire ?"
 - ": mission impossible ?"
 - ", mode d'emploi"
 - ", vite fait, bien fait"
