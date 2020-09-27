@@ -1,10 +1,10 @@
 # Générateur de conférences Paris Web
 
-[Essayer](https://dev.sunfox.org/paris-web/)
+[Essayer en ligne](https://dev.sunfox.org/paris-web/)
 
 ## Développement
 
-Cloner puis:
+Cloner puis :
 
 ```
 npm install
