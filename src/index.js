@@ -21,7 +21,7 @@ class RandomText {
   toString() {
     const text = this.pick("start");
     const result = this.applyReplacements(text);
-    return capitalize(fixWhitespace(result));
+    return capitalize(fixWhitespace(fixTypos(result)));
   }
 
   applyReplacements(text) {
@@ -42,10 +42,6 @@ class RandomText {
     return replaced ? this.applyReplacements(text) : text;
   }
 
-  typoFix(text) {
-    return capitalize(text)
-  }
-
   pick(tag) {
     if (!this.patterns[tag]) throw new Error("No such tag: " + tag)
 
@@ -62,7 +58,18 @@ const fixWhitespace = (text) => {
   return text
     .replace(/ +/, " ")
     .replace(/ +([…,])/, "$1")
-    .replace(/ +([:?])/, "\xa0$1");
+    .replace(/ +([:?])/, "\xa0$1")
+    .trim();
+}
+
+const fixTypos = (text) => {
+  return text
+    .replace(/ à le /, " au ")
+    .replace(/ de le /, " du ")
+    .replace(/ de un /, " d’un ")
+    .replace(/ à les /, " aux ")
+    .replace(/ de les /, " des ")
+    .replace(/ de des /, " des ");
 }
 
 const randomInteger = (min, max) => {
