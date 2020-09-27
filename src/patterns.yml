@@ -11,7 +11,15 @@ start:
 - ne laissez plus <verbe> (fin)
 - femmes du web, <verbe> (fin)
 - faire de la solidarité avec <quelquechose> (fin)
-- le jour où j'ai dû <verbe> (fin)
+- le jour où j'ai dû <verbe>
+- <quelquechose_singulier> et comment l'éviter
+- sortons <quelquechose> de la préhistoire
+- faut-il <verbe> ?
+- histoire <de_quelquechose>
+- <quelquechose> + <quelquechose> = <3
+- <quelquechose> sans <quelquechose>
+- <quelquechose>, un enjeu pour <quelquechose>
+- comment tirer le meilleur parti <de_quelquechose> ?
 - SVG et <quelquechose>
 - revoir <quelquechose>
 - <quelquechose>, est-ce toujours l'unique solution ?
@@ -76,6 +84,7 @@ quelquechose_singulier:
 - la blockchain (adjectif_feminin)
 - la donnée (adjectif_feminin)
 - l'open-source
+- l'identité (adjectif_masculin)
 - le marketing (adjectif_masculin)
 - la sécurité (adjectif_feminin)
 - la vie privée (adjectif_feminin)
@@ -137,6 +146,7 @@ adjectif_singulier:
 - d'aujourd'hui
 - "2.0"
 - hybride
+- mobile
 - incontournable
 - lisible
 - sous surveillance
@@ -147,12 +157,15 @@ adjectif_masculin_pluriel:
 - <adjectif_pluriel>
 - cartographiés
 - paresseux
+- standardisé
 - indépendants
 
 adjectif_feminin_pluriel:
 - <adjectif_pluriel>
 - cartographiées
 - paresseuses
+- conviviale
+- standardisée
 - indépendantes
 
 adjectif_pluriel:
@@ -222,6 +235,10 @@ fin:
 - ": entre réalité et perception"
 - ", pour quoi faire ?"
 - ": Pourquoi ? Comment ?"
+- ": bas les masques !"
+- ", vers de nouveaux usages"
+- ", un grand pas pour le web"
+- "!"
 - ": mission impossible ?"
 - ", mode d'emploi"
 - ", vite fait, bien fait"
