@@ -27,7 +27,7 @@ start:
 - le charme <de_quelquechose> (fin)
 - revue <de_quelquechose>
 - demain, <quelquechose>
-- le secret de <quelquechose>
+- le secret <de_quelquechose>
 - souriez, <quelquechose_pluriel> deviennent réalité
 - changer notre façon de <verbe> (fin)
 - rendez-vous avec <quelquechose>
@@ -43,6 +43,8 @@ start:
 - Questionnements sur <quelquechose> <fin>
 - Pourquoi <quelquechose_singulier> devrait s'intéresser à <le_quelquechose>
 - Les coulisses <de_quelquechose> <quelquepart>
+- vers l'infini et au delà <de_quelquechose>
+- <quelquechose>, reprendre le contrôle <de_quelquechose>
 
 de_quelquechose:
 - d'un modèle pour <quelquechose>
