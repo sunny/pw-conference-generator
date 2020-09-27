@@ -4,10 +4,10 @@
 
 start:
 - autocritique de <quelquechose> (fin)
-- réinventons <quelquechose> (fin)
+- réinventons <quelquechose> (quelquepart) (fin)
 - design <adjectif_masculin> (fin)
 - outils pour <quelquechose> (fin)
-- au secours, je dois <verbe>
+- au secours, je dois <verbe> (quelquepart)
 - ne laissez plus <verbe> (fin)
 - femmes du web, <verbe> (fin)
 - faire de la solidarité avec <quelquechose> (fin)
@@ -21,9 +21,10 @@ start:
 - comment tirer le meilleur parti de <quelquechose> ?
 - le jour où j’ai dû <verbe> (fin)
 - SVG et <quelquechose>
-- revoir <quelquechose>
+- revoir <quelquechose> (quelquepart)
 - <quelquechose>, est-ce toujours l’unique solution ?
 - <verbe>
+- <quelquechose> dans <quelquechose>
 - <quelquechose>, c’est le mal !
 - <quelquechose> <quelquepart> <fin>
 - comment <verbe>
@@ -40,7 +41,7 @@ start:
 - le secret de <quelquechose>
 - souriez, <quelquechose_pluriel> deviennent réalité
 - rendez-vous avec <quelquechose>
-- l’épopée de <quelquechose>
+- l’épopée de <quelquechose> (quelquepart)
 - <quelquechose> de demain dans le web d’aujourd’hui (fin)
 - concevoir <quelquechose> <fin>
 - guide de survie de <quelquechose> (fin)
@@ -322,7 +323,7 @@ adjectif_masculin_pluriel:
 - <adjectif_pluriel>
 - cartographiés
 - paresseux
-- standardisé
+- standardisés
 - indépendants
 - pertinents
 - inclusifs
@@ -463,7 +464,7 @@ fin:
 - ": au-delà des buzzwords"
 - ", du rêve au cauchemar"
 - ", comment ça marche ?"
-- ": et si Tim avait toujours raison ?"
+- ": et si Tim avait raison ?"
 - "pour les développeurs Web"
 - "pour les nuls"
 - "… et c’est pas si facile !"
