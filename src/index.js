@@ -70,8 +70,8 @@ const fixTypos = (text) => {
     .replace(/ à les /g, " aux ")
     .replace(/ de les /g, " des ")
     .replace(/ de des /g, " des ")
-    .replace(/ le ([aAeEiIoOuUu])/g, " l’$1")
-    .replace(/ de é/g, " d’é")
+    .replace(/ le ([aAeEiIoOuUué])/g, " l’$1")
+    .replace(/ de ([aAeEiIoOuUué])/g, " d’$1")
 }
 
 const randomInteger = (min, max) => {
