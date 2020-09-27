@@ -124,6 +124,7 @@ le_quelquechose:
 - l'aire de <le_quelquechose>
 
 adjectif_masculin:
+- <adjectif_masculin> et <adjectif_masculin>
 - <adjectif_singulier>
 - cartographié
 - paresseux
@@ -132,6 +133,7 @@ adjectif_masculin:
 - WYSIWYG
 
 adjectif_feminin:
+- <adjectif_feminin> et <adjectif_feminin>
 - <adjectif_singulier>
 - cartographiée
 - paresseuse
