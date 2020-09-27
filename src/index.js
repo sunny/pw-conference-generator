@@ -2,17 +2,7 @@ import patterns from "./patterns.yml"
 
 document.addEventListener("DOMContentLoaded", () => {
   const nameTarget = document.querySelector("[data-conference-name]");
-
-  const updateName = () => {
-    nameTarget.innerText = generateName();
-  };
-
-  nameTarget.addEventListener("click", e => {
-    e.preventDefault();
-    updateName()
-  });
-
-  updateName();
+  nameTarget.innerText = generateName();
 });
 
 const generateName = () => {
