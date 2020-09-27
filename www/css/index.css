@@ -26,7 +26,7 @@ html, body {
 .container {
   height: 100vh;
   width: 100vw;
-  padding: 4em;
+  padding: 4em 2em;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
