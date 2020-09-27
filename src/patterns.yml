@@ -11,7 +11,6 @@ start:
 - "ne laissez plus <verbe> [fin]"
 - "femmes du web, à vous de <verbe>"
 - "faire de la solidarité avec <quelquechose> [fin]"
-- "<quelquechose_singulier> et comment l’éviter"
 - "sortons <quelquechose> de la préhistoire"
 - "faut-il <verbe> ?"
 - "histoire de <quelquechose> [plus_loin_ou_quelquepart]"
@@ -233,6 +232,7 @@ quelquechose_pluriel:
 - "les handicaps"
 - "les technologies d’assistance"
 - "les serveurs"
+- "les formulaires"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
