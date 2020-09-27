@@ -416,8 +416,8 @@ adjectif_pluriel:
 - "smart"
 - "low-tech"
 - "high-tech"
-- "complexe"
-- "oubliable"
+- "complexes"
+- "oubliables"
 
 verbe:
 - "gérer la production [plus_loin]"
