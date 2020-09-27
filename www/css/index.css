@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans"), local("PTSans-Regular"),
+    url("../fonts/PTSans-Regular.woff2") format("woff2"),
+    url("../fonts/PTSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "PT Sans Narrow";
   src: local("PT Sans Narrow Bold"),
         local("PTSans-NarrowBold"),
@@ -7,14 +15,18 @@
   font-weight: bold;
   font-style: normal;
 }
+
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
 }
+
 .container {
   height: 100vh;
   width: 100vw;
-  padding: 1em;
+  padding: 4em 2em;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -31,7 +43,6 @@ sans-serif;
   flex-grow: 1;
   display: flex;
   align-items: center;
-  text-align: center;
 }
 
 .btn {
@@ -49,4 +60,21 @@ sans-serif;
   text-decoration: none;
   text-align: center;
   flex-grow: 0;
+}
+
+.explanation {
+  font-size: 1.2rem;
+  padding: 1em;
+  background: #eee;
+}
+
+.explanation__content {
+  font-size: 1.2rem;
+  max-width: 40em;
+  margin: 2em auto;
+}
+
+a {
+  color: #0172f0;
+  font-weight: bold;
 }
