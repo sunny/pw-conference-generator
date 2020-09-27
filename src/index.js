@@ -63,13 +63,14 @@ const fixWhitespace = (text) => {
 }
 
 const fixTypos = (text) => {
-  return text
+  return ` ${text} `
     .replace(/ à le /g, " au ")
     .replace(/ de le /g, " du ")
     .replace(/ de un /g, " d’un ")
     .replace(/ à les /g, " aux ")
     .replace(/ de les /g, " des ")
-    .replace(/ de des /g, " des ");
+    .replace(/ de des /g, " des ")
+    .replace(/ le ([aA])/g, " l’$1")
 }
 
 const randomInteger = (min, max) => {
