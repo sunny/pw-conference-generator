@@ -1,0 +1,203 @@
+start:
+# - autocritique <de_quelquechose> (fin)
+# - réinventons <quelquechose> (fin)
+# - design <adjectif_masculin> (fin)
+# - outils pour <quelquechose> (fin)
+# - au secours, je dois <verbe>
+# - ne laissez plus <verbe> (fin)
+# - femmes du web, <verbe> (fin)
+# - faire de la solidarité avec <quelquechose> (fin)
+# - le jour où j'ai dû <verbe> (fin)
+# - SVG et <quelquechose>
+# - revoir <quelquechose>
+# - <quelquechose>, est-ce toujours l'unique solution ?
+# - <verbe>
+# - <quelquechose> <quelquepart> <fin>
+# - comment <verbe>
+# - l'avenir de <quelquechose> <fin>
+# - "<quelquechose> : introduction à <quelquechose_singulier>"
+# - "RGPD : <start>"
+# - "WCAG 2.1 : <start>"
+# - Bien choisir <quelquechose>
+# - <quelquechose_pluriel_feminin> sont elles <adjectif_feminin_pluriel> ?
+# - le charme <de_quelquechose> (fin)
+# - revue <de_quelquechose>
+# - demain, <quelquechose>
+# - le secret de <quelquechose>
+# - souriez, <quelquechose_pluriel> deviennent réalité
+# - changer notre façon de <verbe> (fin)
+# - rendez-vous avec <quelquechose>
+# - l'épopée <de_quelquechose>
+# - <quelquechose> de demain dans le web d'aujourd'hui (fin)
+# - concevoir <quelquechose> <fin>
+# - guide de survie <de_quelquechose> (fin)
+# - 3 méthodes pour <verbe>
+# - anatomie <de_quelquechose> <fin>
+# - retour d'expérience sur <quelquechose>
+# - <quelquechose>, <quelquechose> et vous
+# - Ne passons pas à côté <de_quelquechose>
+# - Questionnements sur <quelquechose> <fin>
+# - Pourquoi <quelquechose_singulier> devrait s'intéresser à <le_quelquechose>
+- Les coulisses <de_quelquechose> <quelquepart>
+
+de_quelquechose:
+- d'un modèle pour <quelquechose>
+- du design (adjectif_masculin)
+- de <le_quelquechose>
+- de <le_quelquechose>
+- de <le_quelquechose>
+
+quelquechose:
+- <quelquechose_singulier>
+- <quelquechose_pluriel>
+
+quelquechose_singulier:
+- l'accessibilité (de_quelquechose)
+- la qualité (de_quelquechose)
+- la revue de code (adjectif_feminin)
+- la documentation (adjectif_feminin)
+- la décentralisation (adjectif_feminin)
+- la performance (adjectif_feminin)
+- le backend (adjectif_masculin)
+- le design (adjectif_masculin)
+- le CSS (adjectif_masculin)
+- l'UX (plus_loin)
+- le W3C
+- la blockchain (adjectif_feminin)
+- la donnée (adjectif_feminin)
+- l'open-source
+- la sécurité (adjectif_feminin)
+- la vie privée (adjectif_feminin)
+- la santé (adjectif_feminin)
+- la couleur (adjectif_feminin)
+- l'éco-conception (adjectif_feminin)
+- l'édition (adjectif_feminin)
+
+quelquechose_pluriel:
+- les obstacles sur le chemin de <le_quelquechose>
+- les compétences (adjectif_feminin_pluriel)
+- les APIs web (adjectif_feminin_pluriel)
+- les sites statiques (adjectif_masculin_pluriel)
+- les supports multimédias (adjectif_masculin_pluriel)
+- les objects connectés (adjectif_masculin_pluriel)
+- les lecteurs d'écran (adjectif_masculin_pluriel)
+- les livres numériques (adjectif_masculin_pluriel)
+- les Progressive Web Apps
+
+quelquechose_pluriel_feminin:
+- les compétences
+- les performances
+- les données
+- les documentations
+- les données graphiques
+- les bases de données
+
+le_quelquechose:
+- l'éthique (adjectif_masculin)
+- l'accessibilité (adjectif_feminin)
+- la sécurité (adjectif_feminin)
+- l'aire de <le_quelquechose>
+
+adjectif_masculin:
+- <adjectif_singulier>
+- cartographié
+- paresseux
+- indépendant
+- bienveillant
+- WYSIWYG
+
+adjectif_feminin:
+- <adjectif_singulier>
+- cartographiée
+- paresseuse
+- bienveillante
+- indépendante
+
+adjectif_singulier:
+- éthique
+- accessible
+- junior
+- au féminin
+- numérique
+- incontournable
+- lisible
+- sous surveillance
+- invisible
+- <plus_loin>
+
+adjectif_masculin_pluriel:
+- <adjectif_pluriel>
+- cartographiés
+- paresseux
+- indépendants
+
+adjectif_feminin_pluriel:
+- <adjectif_pluriel>
+- cartographiées
+- paresseuses
+- indépendantes
+
+adjectif_pluriel:
+- éthiques
+- accessibles
+- web
+- junior
+- au féminin
+- numériques
+- incontournables
+- lisibles
+- invisibles
+- <plus_loin>
+
+verbe:
+- gérer la production (plus_loin)
+- surmonter <quelquechose>
+- définir <quelquechose>
+- déployer <quelquechose>
+- organiser <quelquechose>
+- hiérarchiser <quelquechose>
+- rendre accessible <quelquechose>
+- cultiver <quelquechose>
+- donner le pouvoir <de_quelquechose>
+- pirater <quelquechose>
+- maîtriser <quelquechose>
+- améliorer <quelquechose>
+
+plus_loin:
+- de manière <adjectif_feminin>
+- à grande échelle
+- en agence
+- du futur
+- avec HTML et CSS
+- en mode projet
+- au delà des spécifications
+- de qualité
+- à distance
+- en protégeant sa vie privée
+
+quelquepart:
+- chez Orange France
+- en France
+- dans l'industrie
+- chez les graphistes
+
+fin:
+- ": rien ne se perd, tout se transforme"
+- ", de l'essence à la pratique"
+- à l'intention du développeur (adjectif_masculin)
+- de zéro
+- ", créons la différence !"
+- ", ce que vous devez savoir"
+- ": au-delà des buzzwords"
+- ", du rêve au cauchemar"
+- ", comment ça marche ?"
+- ": et si Tim avait toujours raison ?"
+- "pour les développeurs Web"
+- "… et c'est pas si facile !"
+- ": la partie cachée de l'iceberg"
+- ": entre réalité et perception"
+- ": mission impossible ?"
+- ", mode d'emploi"
+- ", vite fait, bien fait"
+- "? Oui, si l'on pense à tout !"
+- ", le futur arrive"
