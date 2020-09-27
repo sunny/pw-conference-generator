@@ -25,23 +25,23 @@ start:
 - "<quelquechose>, est-ce toujours l’unique solution ?"
 - "<verbe> [plus_loin_ou_quelquepart] [fin]"
 - "<quelquechose> dans <quelquechose>"
-- "<quelquechose>, c’est le mal !"
+- "<quelquechose> [plus_loin_ou_quelquepart], c’est le mal !"
 - "<quelquechose> <quelquepart> <fin>"
 - "comment <verbe>"
 - "l’avenir de <quelquechose> <fin>"
 - "<quelquechose> : introduction à <quelquechose>"
 - "RGPD : <start>"
-- "WCAG 2.1 : <start>"
+- "<techno> : <start>"
 - "bien choisir <quelquechose_singulier> [plus_loin_ou_quelquepart] [fin]"
 - "trucs et astuces pour <verbe>"
 - "<quelquechose_pluriel_feminin> sont elles <adjectif_feminin_pluriel> ?"
 - "le charme de <quelquechose> [fin]"
 - "revue de <quelquechose> [plus_loin_ou_quelquepart] [fin]"
-- "demain, <quelquechose> [plus_loin_ou_quelquepart]"
+- "demain, <quelquechose> [plus_loin_ou_quelquepart] [fin]"
 - "le secret de <quelquechose> [fin]"
 - "souriez, <quelquechose_pluriel> [plus_loin_ou_quelquepart] deviennent réalité"
 - "souriez, <quelquechose_singulier> [plus_loin_ou_quelquepart] devient réalité"
-- "rendez-vous avec <quelquechose>"
+- "rendez-vous avec <quelquechose> [plus_loin_ou_quelquepart]"
 - "l’épopée de <quelquechose> [quelquepart]"
 - "<quelquechose> de demain dans le web d’aujourd’hui [fin]"
 - "concevoir <quelquechose> [quelquepart] <fin>"
@@ -67,7 +67,7 @@ start:
 - "vers une bonne pratique de <quelquechose> [quelquepart]"
 - "découper <quelquechose> : pourquoi ? Comment ?"
 - "<quelquechose>, <quelquechose>, <quelquechose>, faut-il réinventer <quelquechose_singulier> pour éviter la dystopie ?"
-- "le jour où l’on n’aura plus besoin de <quelquechose>"
+- "le jour où l’on n’aura plus besoin de <quelquechose> [plus_loin_ou_quelquepart]"
 - "évaluer <quelquechose> : des méthodes simples et efficaces"
 - "<quelquechose_pluriel> : vers de nouveaux usages dans <quelquechose_singulier> [plus_loin]"
 - "<techno> fait pousser mes tomates [quelquepart]"
@@ -97,8 +97,12 @@ start:
 - "<techno>, <quelquechose> à l’heure de <quelquechose>"
 - "<techno>, <techno>, <techno>, 😅"
 - "<quelquechose>, ou <quelquechose> ? Ça dépend."
+- "“Hello World” en <techno> <fin>"
+- "<techno>, un genre de <techno> <plus_loin_ou_quelquepart>"
 
 article:
+- "le"
+- "le"
 - "le"
 - "mon"
 - "votre"
@@ -188,6 +192,8 @@ quelquechose_singulier:
 - "l’empreinte carbone"
 - "l’infrastructure"
 - "le framework [techno]"
+- "l’enseignement [adjectif_masculin]"
+- "la passation [adjectif_feminin]"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -261,7 +267,7 @@ techno:
 - "ARIA"
 - "Macromedia Flash"
 - "DOM"
-- "WCAG"
+- "WCAG 2.1"
 - "AJAX"
 - "IE6"
 - "Firefox"
@@ -299,6 +305,10 @@ adjectif_masculin:
 - "divers"
 - "pertinent"
 - "élégant"
+- "transparent"
+- "syndiqué"
+- "connecté"
+- "déconnecté"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -322,6 +332,10 @@ adjectif_feminin:
 - "diverse"
 - "pertinente"
 - "élégante"
+- "transparente"
+- "syndiquée"
+- "connectée"
+- "déconnectée"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -366,6 +380,7 @@ adjectif_singulier:
 - "durable"
 - "dystopique"
 - "utopique"
+- "en ligne"
 
 adjectif_masculin_pluriel:
 - "<adjectif_pluriel>"
@@ -386,6 +401,10 @@ adjectif_masculin_pluriel:
 - "généralisés"
 - "isolés"
 - "divers"
+- "transparents"
+- "syndiqués"
+- "connectés"
+- "déconnectés"
 
 adjectif_feminin_pluriel:
 - "<adjectif_pluriel>"
@@ -407,6 +426,10 @@ adjectif_feminin_pluriel:
 - "généralisées"
 - "isolées"
 - "diverses"
+- "transparentes"
+- "syndiquées"
+- "connectées"
+- "déconnectées"
 
 adjectif_tous_genres_pluriel:
 - "<adjectif_masculin_pluriel>"
@@ -457,6 +480,7 @@ adjectif_pluriel:
 - "utopiques"
 - "complexes"
 - "oubliables"
+- "hors-lignes"
 
 verbe:
 - "gérer la production [plus_loin]"
@@ -511,6 +535,7 @@ plus_loin:
 - "en 56K"
 - "pour l’ADSL"
 - "avant optimisation"
+- "sous amphétamines"
 
 quelquepart:
 - "chez Orange France"
@@ -533,6 +558,8 @@ quelquepart:
 - "dans le Cloud"
 - "en administrations"
 - "en WiFi"
+- "en temps de pandémie"
+- "en situation de confinement"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
@@ -556,7 +583,6 @@ fin:
 - ": la partie cachée de l’iceberg"
 - ": entre réalité et perception"
 - ", pour quoi faire ?"
-- ": Pourquoi ? Comment ?"
 - ": bas les masques !"
 - ", vers de nouveaux usages"
 - ", un grand pas pour le web"
@@ -575,7 +601,6 @@ fin:
 - ", c’est pas aussi simple qu'on le croit"
 - ": un petit pas pour l’homme, un grand pas pour <quelquechose>"
 - ": pourquoi ? Comment ?"
-- "par l’exemple"
 - ": retour d’expérience"
 - ", <verbe> les yeux fermés"
 - ": où en est-on ? Que peut-on faire ?"
@@ -584,3 +609,4 @@ fin:
 - ": pourquoi ? Comment ?"
 - "en 30 minutes"
 - "à 100 à l’heure"
+- " (<plus_loin_ou_quelquepart>)"
