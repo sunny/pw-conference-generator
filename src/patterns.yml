@@ -71,8 +71,8 @@ start:
 - "<techno> fait pousser mes tomates [quelquepart]"
 - "<quelquechose> et comment on l’évite [fin]"
 - "créer un clone de <techno> en <techno> [fin]"
-- "votre site web est-il <adjectif_singulier>, <adjectif_singulier> et <adjectif_singulier> pour tous ?"
-- "soyez <adjectif_pluriel> : construisez votre <techno> [fin]"
+- "votre site web est-il <adjectif_tous_genres>, <adjectif_tous_genres> et <adjectif_tous_genres> pour tous ?"
+- "soyez <adjectif_tous_genres_pluriel> : construisez votre <techno> [fin]"
 - "<techno> / <techno> : bousculez vos habitudes !"
 - "tester <techno>, c’est possible !"
 - "<techno>, <quelquechose> et <quelquechose> <fin>"
@@ -287,6 +287,17 @@ adjectif_feminin:
 - "généralisée"
 - "isolée"
 
+adjectif_tous_genres:
+- "<adjectif_masculin>"
+- "<adjectif_masculin>"
+- "<adjectif_masculin>"
+- "<adjectif_feminin>"
+- "<adjectif_feminin>"
+- "<adjectif_feminin>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+
 adjectif_singulier:
 - "<adjectif_masculin>"
 - "<adjectif_feminin>"
@@ -305,6 +316,8 @@ adjectif_singulier:
 - "lisible"
 - "sous surveillance"
 - "invisible"
+- "<plus_loin>"
+- "<plus_loin>"
 - "<plus_loin>"
 - "<plus_loin>"
 - "rapide"
@@ -369,9 +382,18 @@ adjectif_feminin_pluriel:
 - "généralisées"
 - "isolées"
 
-adjectif_pluriel:
+adjectif_tous_genres_pluriel:
+- "<adjectif_masculin_pluriel>"
+- "<adjectif_masculin_pluriel>"
 - "<adjectif_masculin_pluriel>"
 - "<adjectif_feminin_pluriel>"
+- "<adjectif_feminin_pluriel>"
+- "<adjectif_feminin_pluriel>"
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+
+adjectif_pluriel:
 - "éthiques"
 - "accessibles"
 - "web"
