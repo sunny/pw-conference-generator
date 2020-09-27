@@ -7,13 +7,17 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Copy files via SSH
+      - # Build
+      - uses: actions/setup-node@v1
+      - run: npm ci
+      - run: npm run build
+
+      # Deploy
       - name: Copying files
         uses: appleboy/scp-action@master
         with:
