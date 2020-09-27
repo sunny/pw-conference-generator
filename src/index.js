@@ -56,20 +56,20 @@ const capitalize = (text) => {
 
 const fixWhitespace = (text) => {
   return text
-    .replace(/ +/, " ")
-    .replace(/ +([…,])/, "$1")
-    .replace(/ +([:?])/, "\xa0$1")
+    .replace(/ +/g, " ")
+    .replace(/ ([…,])/g, "$1")
+    .replace(/ ([:?])/g, "\xa0$1")
     .trim();
 }
 
 const fixTypos = (text) => {
   return text
-    .replace(/ à le /, " au ")
-    .replace(/ de le /, " du ")
-    .replace(/ de un /, " d’un ")
-    .replace(/ à les /, " aux ")
-    .replace(/ de les /, " des ")
-    .replace(/ de des /, " des ");
+    .replace(/ à le /g, " au ")
+    .replace(/ de le /g, " du ")
+    .replace(/ de un /g, " d’un ")
+    .replace(/ à les /g, " aux ")
+    .replace(/ de les /g, " des ")
+    .replace(/ de des /g, " des ");
 }
 
 const randomInteger = (min, max) => {
