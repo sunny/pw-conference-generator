@@ -11,14 +11,34 @@ html, body {
   margin: 0;
   padding: 0;
 }
-.conferenceName {
+.container {
   height: 100vh;
   width: 100vw;
   padding: 0 1em;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+.conferenceName {
   font: xxx-large "PT Sans Narrow", "Helvetica Neue", "Helvetica", Arial,
 sans-serif;
   font-weight: bold;
+  margin-bottom: .25em;
+}
+
+.btn {
+  display: inline-block;
+  background: #0071b8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: none;
+  padding: 0.6rem 0.9rem;
+  margin: 0.6rem;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }

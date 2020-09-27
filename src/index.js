@@ -1,12 +1,16 @@
 import patterns from "./patterns.yml"
 
 document.addEventListener("DOMContentLoaded", () => {
-  const nameTarget = document.querySelector("[data-conference-name]");
-  nameTarget.innerText = generateName();
+  const button = document.querySelector("[data-conference-generate]")
+
+  button.addEventListener("click", generateName);
+  generateName();
 });
 
 const generateName = () => {
-  return new RandomText(patterns).toString();
+  const nameTarget = document.querySelector("[data-conference-name]");
+  const text = new RandomText(patterns).toString();
+  nameTarget.innerText = `«\xa0${text}\xa0»`
 }
 
 class RandomText {
