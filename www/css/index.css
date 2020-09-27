@@ -2,8 +2,8 @@
   font-family: "PT Sans Narrow";
   src: local("PT Sans Narrow Bold"),
         local("PTSans-NarrowBold"),
-        url("/fonts/PTSans-NarrowBold.woff2") format("woff2"),
-        url("/fonts/PTSans-NarrowBold.woff") format("woff");
+        url("../fonts/PTSans-NarrowBold.woff2") format("woff2"),
+        url("../fonts/PTSans-NarrowBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
