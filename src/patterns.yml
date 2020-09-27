@@ -289,8 +289,6 @@ adjectif_feminin:
 - "isolée"
 
 adjectif_singulier:
-- "<adjectif_masculin>"
-- "<adjectif_feminin>"
 - "éthique"
 - "accessible"
 - "junior"
