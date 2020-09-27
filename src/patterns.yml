@@ -4,10 +4,10 @@
 
 start:
 - autocritique <de_quelquechose> (fin)
-- réinventons <quelquechose> (fin)
+- réinventons <quelquechose> (quelquepart) (fin)
 - design <adjectif_masculin> (fin)
 - outils pour <quelquechose> (fin)
-- au secours, je dois <verbe>
+- au secours, je dois <verbe> (quelquepart)
 - ne laissez plus <verbe> (fin)
 - femmes du web, <verbe> (fin)
 - faire de la solidarité avec <quelquechose> (fin)
@@ -21,7 +21,7 @@ start:
 - <quelquechose>, un enjeu pour <quelquechose>
 - comment tirer le meilleur parti <de_quelquechose> ?
 - SVG et <quelquechose>
-- revoir <quelquechose>
+- revoir <quelquechose> (quelquepart)
 - <quelquechose>, est-ce toujours l'unique solution ?
 - <verbe>
 - <quelquechose>, c'est le mal !
@@ -40,11 +40,11 @@ start:
 - le secret <de_quelquechose>
 - souriez, <quelquechose_pluriel> deviennent réalité
 - rendez-vous avec <quelquechose>
-- l'épopée <de_quelquechose>
+- l'épopée <de_quelquechose> (quelquepart)
 - <quelquechose> de demain dans le web d'aujourd'hui (fin)
 - concevoir <quelquechose> <fin>
 - guide de survie <de_quelquechose> (fin)
-- 3 méthodes pour <verbe>
+- 3 méthodes pour <verbe> (quelquepart)
 - anatomie <de_quelquechose> <fin>
 - retour d'expérience sur <quelquechose>
 - <quelquechose>, <quelquechose> et vous
@@ -160,7 +160,7 @@ adjectif_masculin_pluriel:
 - <adjectif_pluriel>
 - cartographiés
 - paresseux
-- standardisé
+- standardisés
 - indépendants
 
 adjectif_feminin_pluriel:
@@ -231,7 +231,7 @@ fin:
 - ": au-delà des buzzwords"
 - ", du rêve au cauchemar"
 - ", comment ça marche ?"
-- ": et si Tim avait toujours raison ?"
+- ": et si Tim avait raison ?"
 - "pour les développeurs Web"
 - "… et c'est pas si facile !"
 - ": la partie cachée de l'iceberg"
