@@ -1,484 +1,484 @@
 # You can reference another tag with the following syntaxes:
 #   <required>
-#   (optional)
+#   [optional]
 
 start:
-- autocritique de <quelquechose> (fin)
-- réinventons <quelquechose> (quelquepart) (fin)
-- design <adjectif_masculin> (fin)
-- outils pour <quelquechose> (fin)
-- au secours, je dois <verbe> (quelquepart)
-- ne laissez plus <verbe> (fin)
-- femmes du web, <verbe> (fin)
-- faire de la solidarité avec <quelquechose> (fin)
-- <quelquechose_singulier> et comment l’éviter
-- sortons <quelquechose> de la préhistoire
-- faut-il <verbe> ?
-- histoire de <quelquechose>
-- <quelquechose> + <quelquechose> = <3
-- <quelquechose> sans <quelquechose>
-- <quelquechose>, un enjeu pour <quelquechose>
-- comment tirer le meilleur parti de <quelquechose> ?
-- le jour où j’ai dû <verbe> (fin)
-- SVG et <quelquechose>
-- revoir <quelquechose> (quelquepart)
-- <quelquechose>, est-ce toujours l’unique solution ?
-- <verbe>
-- <quelquechose> dans <quelquechose>
-- <quelquechose>, c’est le mal !
-- <quelquechose> <quelquepart> <fin>
-- comment <verbe>
-- l’avenir de <quelquechose> <fin>
+- "autocritique de <quelquechose> [fin]"
+- "réinventons <quelquechose> [quelquepart] [fin]"
+- "design <adjectif_masculin> [fin]"
+- "outils pour <quelquechose> [fin]"
+- "au secours, je dois <verbe> [quelquepart]"
+- "ne laissez plus <verbe> [fin]"
+- "femmes du web, <verbe> [fin]"
+- "faire de la solidarité avec <quelquechose> [fin]"
+- "<quelquechose_singulier> et comment l’éviter"
+- "sortons <quelquechose> de la préhistoire"
+- "faut-il <verbe> ?"
+- "histoire de <quelquechose>"
+- "<quelquechose> + <quelquechose> = <3"
+- "<quelquechose> sans <quelquechose>"
+- "<quelquechose>, un enjeu pour <quelquechose>"
+- "comment tirer le meilleur parti de <quelquechose> ?"
+- "le jour où j’ai dû <verbe> [fin]"
+- "SVG et <quelquechose>"
+- "revoir <quelquechose> [quelquepart]"
+- "<quelquechose>, est-ce toujours l’unique solution ?"
+- "<verbe>"
+- "<quelquechose> dans <quelquechose>"
+- "<quelquechose>, c’est le mal !"
+- "<quelquechose> <quelquepart> <fin>"
+- "comment <verbe>"
+- "l’avenir de <quelquechose> <fin>"
 - "<quelquechose> : introduction à <quelquechose>"
 - "RGPD : <start>"
 - "WCAG 2.1 : <start>"
-- bien choisir <quelquechose_singulier>
-- trucs et astuces pour <verbe>
-- <quelquechose_pluriel_feminin> sont elles <adjectif_feminin_pluriel> ?
-- le charme de <quelquechose> (fin)
-- revue de <quelquechose>
-- demain, <quelquechose>
-- le secret de <quelquechose> (fin)
-- souriez, <quelquechose_pluriel> deviennent réalité
-- souriez, <quelquechose> devient réalité
-- rendez-vous avec <quelquechose>
-- l’épopée de <quelquechose> (quelquepart)
-- <quelquechose> de demain dans le web d’aujourd’hui (fin)
-- concevoir <quelquechose> (quelquepart) <fin>
-- guide de survie de <quelquechose> (fin)
-- 3 méthodes pour <verbe>
-- anatomie de <quelquechose> <fin>
-- retour d’expérience sur <quelquechose>
-- <quelquechose>, <quelquechose> et vous
-- découvrir <quelquechose> par <quelquechose>
-- peut-on réellement <verbe> ?
-- y a-t-il de la place pour <verbe> <quelquepart> ?
-- vers l’infini et au delà de <quelquechose>
-- <quelquechose>, reprendre le contrôle de <quelquechose>
+- "bien choisir <quelquechose_singulier>"
+- "trucs et astuces pour <verbe>"
+- "<quelquechose_pluriel_feminin> sont elles <adjectif_feminin_pluriel> ?"
+- "le charme de <quelquechose> [fin]"
+- "revue de <quelquechose>"
+- "demain, <quelquechose>"
+- "le secret de <quelquechose> [fin]"
+- "souriez, <quelquechose_pluriel> deviennent réalité"
+- "souriez, <quelquechose> devient réalité"
+- "rendez-vous avec <quelquechose>"
+- "l’épopée de <quelquechose> [quelquepart]"
+- "<quelquechose> de demain dans le web d’aujourd’hui [fin]"
+- "concevoir <quelquechose> [quelquepart] <fin>"
+- "guide de survie de <quelquechose> [fin]"
+- "3 méthodes pour <verbe>"
+- "anatomie de <quelquechose> <fin>"
+- "retour d’expérience sur <quelquechose>"
+- "<quelquechose>, <quelquechose> et vous"
+- "découvrir <quelquechose> par <quelquechose>"
+- "peut-on réellement <verbe> ?"
+- "y a-t-il de la place pour <verbe> <quelquepart> ?"
+- "vers l’infini et au delà de <quelquechose>"
+- "<quelquechose>, reprendre le contrôle de <quelquechose>"
 - "<quelquechose> : comment <verbe>"
-- ne passons pas à côté de <quelquechose>
-- questionnements sur <quelquechose> <fin>
-- pourquoi <quelquechose_singulier> devrait s’intéresser à <quelquechose>
-- les coulisses de <quelquechose> <quelquepart>
-- vers l’infini et au delà de <quelquechose>
-- <quelquechose>, reprendre le contrôle de <quelquechose>
-- <quelquechose>, un modèle transversal pour <quelquechose>
-- <quelquechose> 2.0
-- vers une bonne pratique de <quelquechose> (quelquepart)
+- "ne passons pas à côté de <quelquechose>"
+- "questionnements sur <quelquechose> <fin>"
+- "pourquoi <quelquechose_singulier> devrait s’intéresser à <quelquechose>"
+- "les coulisses de <quelquechose> <quelquepart>"
+- "vers l’infini et au delà de <quelquechose>"
+- "<quelquechose>, reprendre le contrôle de <quelquechose>"
+- "<quelquechose>, un modèle transversal pour <quelquechose>"
+- "<quelquechose> 2.0"
+- "vers une bonne pratique de <quelquechose> [quelquepart]"
 - "découper <quelquechose> : pourquoi ? Comment ?"
-- <quelquechose>, <quelquechose>, <quelquechose>, faut-il réinventer <quelquechose_singulier> pour éviter la dystopie ?
-- le jour où l’on n’aura plus besoin de <quelquechose>
+- "<quelquechose>, <quelquechose>, <quelquechose>, faut-il réinventer <quelquechose_singulier> pour éviter la dystopie ?"
+- "le jour où l’on n’aura plus besoin de <quelquechose>"
 - "évaluer <quelquechose> : des méthodes simples et efficaces"
-- "<quelquechose_pluriel> : vers de nouveaux usages dans <quelquechose_singulier> (plus_loin)"
-- <techno> fait pousser mes tomates (quelquepart)
-- <quelquechose> et comment on l’évite (fin)
-- créer un clone de <techno> en <techno> (fin)
-- votre site web est-il <adjectif_singulier>, <adjectif_singulier> et <adjectif_singulier> pour tous ?
-- "soyez <adjectif_pluriel> : construisez votre <techno> (fin)"
+- "<quelquechose_pluriel> : vers de nouveaux usages dans <quelquechose_singulier> [plus_loin]"
+- "<techno> fait pousser mes tomates [quelquepart]"
+- "<quelquechose> et comment on l’évite [fin]"
+- "créer un clone de <techno> en <techno> [fin]"
+- "votre site web est-il <adjectif_singulier>, <adjectif_singulier> et <adjectif_singulier> pour tous ?"
+- "soyez <adjectif_pluriel> : construisez votre <techno> [fin]"
 - "<techno> / <techno> : bousculez vos habitudes !"
-- tester <techno>, c’est possible !
-- <techno>, <quelquechose> et <quelquechose> <fin>
-- vivre avec <quelquechose_pluriel>
-- <quelquechose> selon le W3C
-- les standards <techno> et <techno>, des origines à mercredi dernier
-- <quelquechose>, parent pauvre du Web ?
-- <verbe>, 15 minutes top chrono !
-- <techno> c’est maintenant (<techno> inclus)
-- comment ça c’est pas de <quelquechose> ?
-- formulaires et <techno> <fin>
-- les neurosciences au service de <quelquechose> (fin)
-- table ronde de <quelquechose_pluriel>
-- comment bien gérer <quelquechose> <quelquepart>
-- <quelquechose> et <quelquechose>, sans bullshit
-- <techno> ou <techno> ? Quelle techno choisir et pour quel prix.
-- <techno>, <quelquechose> simple et <adjectif_singulier>
-- <quelquechose>… après tout, pourquoi pas ?
-- <techno>, <quelquechose> à l’heure de <quelquechose>
-- <techno>, <techno>, <techno>, 😅
-- <quelquechose>, ou <quelquechose> ? Ça dépend.
+- "tester <techno>, c’est possible !"
+- "<techno>, <quelquechose> et <quelquechose> <fin>"
+- "vivre avec <quelquechose_pluriel>"
+- "<quelquechose> selon le W3C"
+- "les standards <techno> et <techno>, des origines à mercredi dernier"
+- "<quelquechose>, parent pauvre du Web ?"
+- "<verbe>, 15 minutes top chrono !"
+- "<techno> c’est maintenant [<techno> inclus]"
+- "comment ça c’est pas de <quelquechose> ?"
+- "formulaires et <techno> <fin>"
+- "les neurosciences au service de <quelquechose> [fin]"
+- "table ronde de <quelquechose_pluriel>"
+- "comment bien gérer <quelquechose> <quelquepart>"
+- "<quelquechose> et <quelquechose>, sans bullshit"
+- "<techno> ou <techno> ? Quelle techno choisir et pour quel prix."
+- "<techno>, <quelquechose> simple et <adjectif_singulier>"
+- "<quelquechose>… après tout, pourquoi pas ?"
+- "<techno>, <quelquechose> à l’heure de <quelquechose>"
+- "<techno>, <techno>, <techno>, 😅"
+- "<quelquechose>, ou <quelquechose> ? Ça dépend."
 
 article:
-- le
-- mon
-- votre
+- "le"
+- "mon"
+- "votre"
 
 quelquechose:
-- <quelquechose_singulier>
-- <quelquechose_singulier>
-- <quelquechose_pluriel>
-- <quelquechose_pluriel>
-- (article) <techno>
+- "<quelquechose_singulier>"
+- "<quelquechose_singulier>"
+- "<quelquechose_pluriel>"
+- "<quelquechose_pluriel>"
+- "[article] <techno>"
 
 quelquechose_singulier:
-- un modèle pour <quelquechose>
-- le design (adjectif_masculin)
-- l’accessibilité
-- l’accessibilité de <quelquechose>
-- la qualité
-- la qualité de <quelquechose>
-- la revue de code (adjectif_feminin)
-- la documentation (adjectif_feminin)
-- la décentralisation (adjectif_feminin)
-- la performance (adjectif_feminin)
-- le backend (adjectif_masculin)
-- le design (adjectif_masculin)
-- le CSS (adjectif_masculin)
-- l’UX (plus_loin)
-- le W3C
-- la blockchain (adjectif_feminin)
-- la donnée (adjectif_feminin)
-- l’identité (adjectif_feminin)
-- le marketing (adjectif_masculin)
-- l’open-source
-- la sécurité (adjectif_feminin)
-- la vie privée (adjectif_feminin)
-- la santé (adjectif_feminin)
-- la couleur (adjectif_feminin)
-- l’éco-conception (adjectif_feminin)
-- l’édition <adjectif_feminin>
-- le RGAA 3
-- l’éco-conception (adjectif_feminin)
-- l’édition (adjectif_feminin)
-- le Pair Design
-- son application monolithe
-- la dépendance aux GAFA
-- la surveillance (plus_loin_ou_quelquepart)
-- la qualité web (plus_loin_ou_quelquepart)
-- le burnout (plus_loin_ou_quelquepart)
-- le monitoring (adjectif_masculin)
-- le routing (adjectif_masculin)
-- mon brainstorming
-- le pair-programing (adjectif_masculin)
-- le debugging (adjectif_masculin)
-- le responsive
-- l’éthique (adjectif_feminin)
-- l’accessibilité (adjectif_feminin)
-- la sécurité (adjectif_feminin)
-- l’aire de <quelquechose>
-- la conception (adjectif_feminin)
-- mon audit (techno) (adjectif_masculin)
-- l’algorithme (adjectif_masculin)
-- la macrotypographie de <quelquechose>
-- la page web (adjectif_feminin)
-- le facteur humain (adjectif_masculin)
-- la conduite de qualité (adjectif_feminin)
-- ma Progressive Web App (adjectif_feminin)
-- l’humanité
-- le greenwashing
-- l’anthropocène
-- votre CTO
-- votre équipe
-- le télétravail
-- le présentiel
+- "un modèle pour <quelquechose>"
+- "le design [adjectif_masculin]"
+- "l’accessibilité"
+- "l’accessibilité de <quelquechose>"
+- "la qualité"
+- "la qualité de <quelquechose>"
+- "la revue de code [adjectif_feminin]"
+- "la documentation [adjectif_feminin]"
+- "la décentralisation [adjectif_feminin]"
+- "la performance [adjectif_feminin]"
+- "le backend [adjectif_masculin]"
+- "le design [adjectif_masculin]"
+- "le CSS [adjectif_masculin]"
+- "l’UX [plus_loin]"
+- "le W3C"
+- "la blockchain [adjectif_feminin]"
+- "la donnée [adjectif_feminin]"
+- "l’identité [adjectif_feminin]"
+- "le marketing [adjectif_masculin]"
+- "l’open-source"
+- "la sécurité [adjectif_feminin]"
+- "la vie privée [adjectif_feminin]"
+- "la santé [adjectif_feminin]"
+- "la couleur [adjectif_feminin]"
+- "l’éco-conception [adjectif_feminin]"
+- "l’édition <adjectif_feminin>"
+- "le RGAA 3"
+- "l’éco-conception [adjectif_feminin]"
+- "l’édition [adjectif_feminin]"
+- "le Pair Design"
+- "son application monolithe"
+- "la dépendance aux GAFA"
+- "la surveillance [plus_loin_ou_quelquepart]"
+- "la qualité web [plus_loin_ou_quelquepart]"
+- "le burnout [plus_loin_ou_quelquepart]"
+- "le monitoring [adjectif_masculin]"
+- "le routing [adjectif_masculin]"
+- "mon brainstorming"
+- "le pair-programing [adjectif_masculin]"
+- "le debugging [adjectif_masculin]"
+- "le responsive"
+- "l’éthique [adjectif_feminin]"
+- "l’accessibilité [adjectif_feminin]"
+- "la sécurité [adjectif_feminin]"
+- "l’aire de <quelquechose>"
+- "la conception [adjectif_feminin]"
+- "mon audit [techno] [adjectif_masculin]"
+- "l’algorithme [adjectif_masculin]"
+- "la macrotypographie de <quelquechose>"
+- "la page web [adjectif_feminin]"
+- "le facteur humain [adjectif_masculin]"
+- "la conduite de qualité [adjectif_feminin]"
+- "ma Progressive Web App [adjectif_feminin]"
+- "l’humanité"
+- "le greenwashing"
+- "l’anthropocène"
+- "votre CTO"
+- "votre équipe"
+- "le télétravail"
+- "le présentiel"
 
 quelquechose_pluriel:
-- les obstacles sur le chemin de <quelquechose>
-- les compétences <adjectif_feminin_pluriel>
-- les APIs web (adjectif_feminin_pluriel)
-- les sites statiques (adjectif_masculin_pluriel)
-- les bonnes pratiques (adjectif_feminin_pluriel)
-- les cookies (adjectif_masculin_pluriel)
-- les supports multimédias (adjectif_masculin_pluriel)
-- les objects connectés (adjectif_masculin_pluriel)
-- les lecteurs d’écran (adjectif_masculin_pluriel)
-- les livres numériques (adjectif_masculin_pluriel)
-- les Progressive Web Apps
-- les internets
-- les checklists
-- les audits
-- les standards
-- <quelquechose_pluriel_feminin> (adjectif_feminin_pluriel)
-- <quelquechose_pluriel_feminin> (adjectif_feminin_pluriel)
-- les algorithmes
-- les navigateurs
-- les entreprises
-- les contenus
-- les relations client
-- les GAFAM
-- les réseaux sociaux
-- les PDF
-- les décideurs
-- les développeurs
-- les intégrateurs
-- les vieux de la vieille
-- les stagiaires
+- "les obstacles sur le chemin de <quelquechose>"
+- "les compétences <adjectif_feminin_pluriel>"
+- "les APIs web [adjectif_feminin_pluriel]"
+- "les sites statiques [adjectif_masculin_pluriel]"
+- "les bonnes pratiques [adjectif_feminin_pluriel]"
+- "les cookies [adjectif_masculin_pluriel]"
+- "les supports multimédias [adjectif_masculin_pluriel]"
+- "les objects connectés [adjectif_masculin_pluriel]"
+- "les lecteurs d’écran [adjectif_masculin_pluriel]"
+- "les livres numériques [adjectif_masculin_pluriel]"
+- "les Progressive Web Apps"
+- "les internets"
+- "les checklists"
+- "les audits"
+- "les standards"
+- "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
+- "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
+- "les algorithmes"
+- "les navigateurs"
+- "les entreprises"
+- "les contenus"
+- "les relations client"
+- "les GAFAM"
+- "les réseaux sociaux"
+- "les PDF"
+- "les décideurs"
+- "les développeurs"
+- "les intégrateurs"
+- "les vieux de la vieille"
+- "les stagiaires"
 
 quelquechose_pluriel_feminin:
-- les compétences
-- les performances
-- les données
-- les documentations
-- les données graphiques
-- les bases de données
-- les développeuses
-- les intégratrices
+- "les compétences"
+- "les performances"
+- "les données"
+- "les documentations"
+- "les données graphiques"
+- "les bases de données"
+- "les développeuses"
+- "les intégratrices"
 
 techno:
-- React
-- React Native
-- Node.js
-- PouchDB
-- npm
-- NVDA
-- WebGL
-- OpenID
-- ES6
-- Grunt
-- Webpack
-- CSS
-- SASS
-- RGAA 3.0
-- Web Component
-- HTML5
-- JavaScript
-- ARIA
-- Macromedia Flash
-- API
-- DOM
-- mobile-first
-- WCAG
-- A11y
-- IA
-- AJAX
-- IE6
-- Firefox
-- Google Chrome
-- IE11
-- UTF-8
-- XHTML
-- WebRTC
-- GreenIT
+- "React"
+- "React Native"
+- "Node.js"
+- "PouchDB"
+- "npm"
+- "NVDA"
+- "WebGL"
+- "OpenID"
+- "ES6"
+- "Grunt"
+- "Webpack"
+- "CSS"
+- "SASS"
+- "RGAA 3.0"
+- "Web Component"
+- "HTML5"
+- "JavaScript"
+- "ARIA"
+- "Macromedia Flash"
+- "API"
+- "DOM"
+- "mobile-first"
+- "WCAG"
+- "A11y"
+- "IA"
+- "AJAX"
+- "IE6"
+- "Firefox"
+- "Google Chrome"
+- "IE11"
+- "UTF-8"
+- "XHTML"
+- "WebRTC"
+- "GreenIT"
 
 adjectif_masculin:
-- <adjectif_masculin> et <adjectif_masculin>
-- <adjectif_singulier>
-- <adjectif_singulier>
-- <adjectif_singulier>
-- <adjectif_singulier>
-- cartographié
-- paresseux
-- indépendant
-- bienveillant
-- pertinent
-- inclusif
-- décentralisé
-- ouvert
-- fermé
-- intelligent
-- déstructuré
-- généralisé
-- isolé
+- "<adjectif_masculin> et <adjectif_masculin>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "cartographié"
+- "paresseux"
+- "indépendant"
+- "bienveillant"
+- "pertinent"
+- "inclusif"
+- "décentralisé"
+- "ouvert"
+- "fermé"
+- "intelligent"
+- "déstructuré"
+- "généralisé"
+- "isolé"
 
 adjectif_feminin:
-- <adjectif_feminin> et <adjectif_feminin>
-- <adjectif_singulier>
-- <adjectif_singulier>
-- <adjectif_singulier>
-- <adjectif_singulier>
-- cartographiée
-- paresseuse
-- bienveillante
-- indépendante
-- pertinente
-- inclusive
-- décentralisée
-- ouverte
-- fermée
-- intelligente
-- déstructurée
-- généralisée
-- isolée
+- "<adjectif_feminin> et <adjectif_feminin>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "<adjectif_singulier>"
+- "cartographiée"
+- "paresseuse"
+- "bienveillante"
+- "indépendante"
+- "pertinente"
+- "inclusive"
+- "décentralisée"
+- "ouverte"
+- "fermée"
+- "intelligente"
+- "déstructurée"
+- "généralisée"
+- "isolée"
 
 adjectif_singulier:
-- <adjectif_masculin>
-- <adjectif_feminin>
-- éthique
-- accessible
-- junior
-- au féminin
-- numérique
-- d’aujourd’hui
-- de demain
-- d’hier
+- "<adjectif_masculin>"
+- "<adjectif_feminin>"
+- "éthique"
+- "accessible"
+- "junior"
+- "au féminin"
+- "numérique"
+- "d’aujourd’hui"
+- "de demain"
+- "d’hier"
 - "2.0"
-- hybride
-- mobile
-- incontournable
-- lisible
-- sous surveillance
-- invisible
-- <plus_loin>
-- <plus_loin>
-- rapide
-- lisible
-- compréhensible
-- utilisable
-- pertinent
-- pédagogique
-- pérenne
-- WYSIWYG
-- responsable
-- statique
-- simple
-- facile
-- élégant
-- pirate
-- désirable
-- évitable
-- data-driven
-- smart
-- low-tech
-- high-tech
-- complexe
-- oubliable
+- "hybride"
+- "mobile"
+- "incontournable"
+- "lisible"
+- "sous surveillance"
+- "invisible"
+- "<plus_loin>"
+- "<plus_loin>"
+- "rapide"
+- "lisible"
+- "compréhensible"
+- "utilisable"
+- "pertinent"
+- "pédagogique"
+- "pérenne"
+- "WYSIWYG"
+- "responsable"
+- "statique"
+- "simple"
+- "facile"
+- "élégant"
+- "pirate"
+- "désirable"
+- "évitable"
+- "data-driven"
+- "smart"
+- "low-tech"
+- "high-tech"
+- "complexe"
+- "oubliable"
 
 adjectif_masculin_pluriel:
-- <adjectif_pluriel>
-- <adjectif_pluriel>
-- <adjectif_pluriel>
-- <adjectif_pluriel>
-- cartographiés
-- paresseux
-- standardisés
-- indépendants
-- pertinents
-- inclusifs
-- décentralisés
-- ouverts
-- fermés
-- intelligents
-- déstructurés
-- généralisés
-- isolés
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "cartographiés"
+- "paresseux"
+- "standardisés"
+- "indépendants"
+- "pertinents"
+- "inclusifs"
+- "décentralisés"
+- "ouverts"
+- "fermés"
+- "intelligents"
+- "déstructurés"
+- "généralisés"
+- "isolés"
 
 adjectif_feminin_pluriel:
-- <adjectif_pluriel>
-- <adjectif_pluriel>
-- <adjectif_pluriel>
-- <adjectif_pluriel>
-- cartographiées
-- paresseuses
-- conviviales
-- standardisées
-- indépendantes
-- pertinentes
-- inclusives
-- décentralisées
-- ouvertes
-- fermées
-- intelligentes
-- déstructurées
-- généralisées
-- isolées
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "<adjectif_pluriel>"
+- "cartographiées"
+- "paresseuses"
+- "conviviales"
+- "standardisées"
+- "indépendantes"
+- "pertinentes"
+- "inclusives"
+- "décentralisées"
+- "ouvertes"
+- "fermées"
+- "intelligentes"
+- "déstructurées"
+- "généralisées"
+- "isolées"
 
 adjectif_pluriel:
-- <adjectif_masculin_pluriel>
-- <adjectif_feminin_pluriel>
-- éthiques
-- accessibles
-- web
-- junior
-- au féminin
-- numériques
-- incontournables
-- lisibles
-- invisibles
-- <plus_loin>
-- rapides
-- lisibles
-- compréhensibles
-- utilisables
-- pédagogiques
-- pérennes
-- responsables
-- statiques
-- pirates
-- désirables
-- évitables
-- d’aujourd’hui
-- de demain
-- d’hier
+- "<adjectif_masculin_pluriel>"
+- "<adjectif_feminin_pluriel>"
+- "éthiques"
+- "accessibles"
+- "web"
+- "junior"
+- "au féminin"
+- "numériques"
+- "incontournables"
+- "lisibles"
+- "invisibles"
+- "<plus_loin>"
+- "rapides"
+- "lisibles"
+- "compréhensibles"
+- "utilisables"
+- "pédagogiques"
+- "pérennes"
+- "responsables"
+- "statiques"
+- "pirates"
+- "désirables"
+- "évitables"
+- "d’aujourd’hui"
+- "de demain"
+- "d’hier"
 - "2.0"
-- <plus_loin>
-- <plus_loin>
-- WYSIWYG
-- data-driven
-- smart
-- low-tech
-- high-tech
-- complexe
-- oubliable
+- "<plus_loin>"
+- "<plus_loin>"
+- "WYSIWYG"
+- "data-driven"
+- "smart"
+- "low-tech"
+- "high-tech"
+- "complexe"
+- "oubliable"
 
 verbe:
-- gérer la production (plus_loin)
-- gérer <quelquechose>
-- comprendre <quelquechose>
-- surmonter <quelquechose>
-- définir <quelquechose>
-- déployer <quelquechose>
-- organiser <quelquechose>
-- hiérarchiser <quelquechose>
-- rendre accessible <quelquechose>
-- cultiver <quelquechose>
-- valoriser <quelquechose>
-- donner le pouvoir de <quelquechose>
-- pirater <quelquechose>
-- maîtriser <quelquechose>
-- améliorer <quelquechose>
-- reprendre le contrôle de <quelquechose>
-- créer <quelquechose>
-- estimer <quelquechose> de <quelquechose>
-- vouloir <quelquechose>
-- justifier l’utilisation de <article> <techno>
-- pourfendre <quelquechose>
-- en finir une bonne fois pour toutes avec <quelquechose>
-- évangéliser <quelquechose>
+- "gérer la production [plus_loin]"
+- "gérer <quelquechose>"
+- "comprendre <quelquechose>"
+- "surmonter <quelquechose>"
+- "définir <quelquechose>"
+- "déployer <quelquechose>"
+- "organiser <quelquechose>"
+- "hiérarchiser <quelquechose>"
+- "rendre accessible <quelquechose>"
+- "cultiver <quelquechose>"
+- "valoriser <quelquechose>"
+- "donner le pouvoir de <quelquechose>"
+- "pirater <quelquechose>"
+- "maîtriser <quelquechose>"
+- "améliorer <quelquechose>"
+- "reprendre le contrôle de <quelquechose>"
+- "créer <quelquechose>"
+- "estimer <quelquechose> de <quelquechose>"
+- "vouloir <quelquechose>"
+- "justifier l’utilisation de <article> <techno>"
+- "pourfendre <quelquechose>"
+- "en finir une bonne fois pour toutes avec <quelquechose>"
+- "évangéliser <quelquechose>"
 
 plus_loin:
-- de manière <adjectif_feminin>
-- à grande échelle
-- en agence
-- du futur
-- à distance
-- avec HTML et CSS
-- en mode projet
-- au delà des spécifications
-- de qualité
-- à distance
-- en protégeant sa vie privée
-- mobile-first
-- avec subtilité
-- quand on débute
-- en fin de carrière
-- pour un monde plus <adjectif_masculin>
-- en instantané
+- "de manière <adjectif_feminin>"
+- "à grande échelle"
+- "en agence"
+- "du futur"
+- "à distance"
+- "avec HTML et CSS"
+- "en mode projet"
+- "au delà des spécifications"
+- "de qualité"
+- "à distance"
+- "en protégeant sa vie privée"
+- "mobile-first"
+- "avec subtilité"
+- "quand on débute"
+- "en fin de carrière"
+- "pour un monde plus <adjectif_masculin>"
+- "en instantané"
 
 quelquepart:
-- chez Orange France
-- en France
-- dans le web
-- dans l’industrie
-- dans la tech
-- chez les graphistes
-- en production
-- sur le web
-- dans les internets
-- dans une grande entreprise
-- dans l’indifférence totale
-- dans le back-office de WordPress
-- en télétravail
-- à distance
-- en peer 2 peer
+- "chez Orange France"
+- "en France"
+- "dans le web"
+- "dans l’industrie"
+- "dans la tech"
+- "chez les graphistes"
+- "en production"
+- "sur le web"
+- "dans les internets"
+- "dans une grande entreprise"
+- "dans l’indifférence totale"
+- "dans le back-office de WordPress"
+- "en télétravail"
+- "à distance"
+- "en peer 2 peer"
 
 plus_loin_ou_quelquepart:
-- <plus_loin>
-- <quelquepart>
+- "<plus_loin>"
+- "<quelquepart>"
 
 fin:
 - ": rien ne se perd, tout se transforme"
 - ", de l’essence à la pratique"
-- à l’intention du développeur (adjectif_masculin)
-- de zéro
+- "à l’intention du développeur [adjectif_masculin]"
+- "de zéro"
 - ", créons la différence !"
 - ", ce que vous devez savoir"
 - ": au-delà des buzzwords"
@@ -503,7 +503,7 @@ fin:
 - "? Oui, si l’on pense à tout !"
 - ", le futur arrive"
 - ", en 20 itérations"
-- par l’exemple
+- "par l’exemple"
 - ": retour d’expérience"
 - ", <verbe> les yeux fermés"
 - ": où en est-on ? Que peut-on faire ?"
