@@ -24,6 +24,7 @@ start:
 - revoir <quelquechose>
 - <quelquechose>, est-ce toujours l’unique solution ?
 - <verbe>
+- <quelquechose>, c'est le mal !
 - <quelquechose> <quelquepart> <fin>
 - comment <verbe>
 - l’avenir de <quelquechose> <fin>
@@ -224,6 +225,7 @@ techno:
 - UTF-8
 
 adjectif_masculin:
+- <adjectif_masculin> et <adjectif_masculin>
 - <adjectif_singulier>
 - <adjectif_singulier>
 - <adjectif_singulier>
@@ -236,6 +238,7 @@ adjectif_masculin:
 - inclusif
 
 adjectif_feminin:
+- <adjectif_feminin> et <adjectif_feminin>
 - <adjectif_singulier>
 - <adjectif_singulier>
 - <adjectif_singulier>
@@ -300,8 +303,8 @@ adjectif_feminin_pluriel:
 - <adjectif_pluriel>
 - cartographiées
 - paresseuses
-- conviviale
-- standardisée
+- conviviales
+- standardisées
 - indépendantes
 - pertinentes
 - inclusives
