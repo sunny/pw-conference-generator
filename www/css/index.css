@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans"), local("PTSans-Regular"),
+    url("../fonts/PTSans-Regular.woff2") format("woff2"),
+    url("../fonts/PTSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "PT Sans Narrow";
   src: local("PT Sans Narrow Bold"),
         local("PTSans-NarrowBold"),
@@ -7,6 +15,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
 html, body {
   margin: 0;
   padding: 0;
