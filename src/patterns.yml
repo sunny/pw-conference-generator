@@ -1,3 +1,7 @@
+# You can reference another tag with the following syntaxes:
+#   <required>
+#   (optional)
+
 start:
 - autocritique <de_quelquechose> (fin)
 - réinventons <quelquechose> (fin)

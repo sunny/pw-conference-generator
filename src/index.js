@@ -32,13 +32,17 @@ class RandomText {
 
   applyReplacements(text) {
     let replaced = false
+
+    // required <tags>
     text = text.replace(/<(.*?)>/, (match, tag) => {
       replaced = true
       return this.pick(tag)
     })
+
+    // optional [tags]
     text = text.replace(/\((.*?)\)/, (match, tag) => {
       replaced = true;
-      return (randomInteger(0, 3) == 0) ? this.pick(tag) : "";
+      return (Math.random() < 0.3) ? this.pick(tag) : "";
     })
 
     return replaced ? this.applyReplacements(text) : text;
