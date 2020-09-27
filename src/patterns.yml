@@ -39,8 +39,8 @@ start:
 - "revue de <quelquechose> [plus_loin_ou_quelquepart] [fin]"
 - "demain, <quelquechose> [plus_loin_ou_quelquepart]"
 - "le secret de <quelquechose> [fin]"
-- "souriez, <quelquechose_pluriel> deviennent réalité"
-- "souriez, <quelquechose_singulier> devient réalité"
+- "souriez, <quelquechose_pluriel> [plus_loin_ou_quelquepart] deviennent réalité"
+- "souriez, <quelquechose_singulier> [plus_loin_ou_quelquepart] devient réalité"
 - "rendez-vous avec <quelquechose>"
 - "l’épopée de <quelquechose> [quelquepart]"
 - "<quelquechose> de demain dans le web d’aujourd’hui [fin]"
@@ -77,7 +77,7 @@ start:
 - "votre site web est-il <adjectif_singulier>, <adjectif_singulier> et <adjectif_singulier> pour tous ?"
 - "soyez <adjectif_pluriel> : construisez votre <techno> [fin]"
 - "<techno> / <techno> : bousculez vos habitudes !"
-- "tester son <techno>, c’est possible !"
+- "tester son <techno> [plus_loin_ou_quelquepart], c’est possible !"
 - "<techno>, <quelquechose> et <quelquechose> <fin>"
 - "vivre avec <quelquechose_pluriel> [plus_loin_ou_quelquepart]"
 - "<quelquechose> selon le W3C [fin]"
@@ -183,6 +183,10 @@ quelquechose_singulier:
 - "le livre numérique"
 - "mon designer"
 - "l’impact de <quelquechose>"
+- "les sous-titres"
+- "l’empreinte carbone"
+- "l’infrastructure"
+- "le framework [techno]"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -221,6 +225,7 @@ quelquechose_pluriel:
 - "les contrastes"
 - "les handicaps"
 - "les technologies d’assistance"
+- "les serveurs"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -231,6 +236,8 @@ quelquechose_pluriel_feminin:
 - "les bases de données"
 - "les développeuses"
 - "les intégratrices"
+- "les pages web"
+- "les entreprises"
 
 techno:
 - "React"
@@ -265,6 +272,9 @@ techno:
 - "Apple"
 - "iOS"
 - "Git"
+- "MySQL"
+- "FORTRAN"
+- "VueJS"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -497,6 +507,9 @@ plus_loin:
 - "en instantané"
 - "pour l’État français"
 - "sans en avoir l’air"
+- "en 56K"
+- "pour l’ADSL"
+- "avant optimisation"
 
 quelquepart:
 - "chez Orange France"
@@ -528,7 +541,8 @@ fin:
 - ": rien ne se perd, tout se transforme"
 - ", de l’essence à la pratique [plus_loin_ou_quelquepart]"
 - "à l’intention du développeur [adjectif_masculin]"
-- "de zéro"
+- "à l’intention de la développeuse [adjectif_feminin]"
+- "en partant de zéro"
 - ", créons la différence !"
 - ", ce que vous devez savoir"
 - ": au-delà des buzzwords"
@@ -567,3 +581,5 @@ fin:
 - ", c’est pas aussi simple qu'on le croit"
 - ": un petit pas pour l’homme, un grand pas pour <quelquechose>"
 - ": pourquoi ? Comment ?"
+- "en 30 minutes"
+- "à 100 à l’heure"
