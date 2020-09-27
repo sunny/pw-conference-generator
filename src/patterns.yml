@@ -19,7 +19,7 @@ start:
 - <quelquechose> <quelquepart> <fin>
 - comment <verbe>
 - l'avenir de <quelquechose> <fin>
-- "<quelquechose> : introduction à <quelquechose_singulier>"
+- "<quelquechose> : introduction à <le_quelquechose>"
 - "RGPD : <start>"
 - "WCAG 2.1 : <start>"
 - bien choisir <quelquechose_singulier>
@@ -30,7 +30,6 @@ start:
 - demain, <quelquechose>
 - le secret <de_quelquechose>
 - souriez, <quelquechose_pluriel> deviennent réalité
-- changer notre façon de <verbe> (fin)
 - rendez-vous avec <quelquechose>
 - l'épopée <de_quelquechose>
 - <quelquechose> de demain dans le web d'aujourd'hui (fin)
@@ -42,6 +41,7 @@ start:
 - <quelquechose>, <quelquechose> et vous
 - ne passons pas à côté <de_quelquechose>
 - questionnements sur <quelquechose> <fin>
+- découvrir <quelquechose> par <quelquechose>
 - pourquoi <quelquechose_singulier> devrait s'intéresser à <le_quelquechose>
 - les coulisses <de_quelquechose> <quelquepart>
 - peut-on réellement <verbe> ?
@@ -82,7 +82,8 @@ quelquechose_singulier:
 - la santé (adjectif_feminin)
 - la couleur (adjectif_feminin)
 - l'éco-conception (adjectif_feminin)
-- l'édition (adjectif_feminin)
+- l'édition <adjectif_feminin>
+- WebGL
 - le RGAA 3
 
 quelquechose_pluriel:
@@ -177,6 +178,7 @@ verbe:
 - hiérarchiser <quelquechose>
 - rendre accessible <quelquechose>
 - cultiver <quelquechose>
+- valoriser <quelquechose>
 - donner le pouvoir <de_quelquechose>
 - pirater <quelquechose>
 - maîtriser <quelquechose>
@@ -219,6 +221,7 @@ fin:
 - ": la partie cachée de l'iceberg"
 - ": entre réalité et perception"
 - ", pour quoi faire ?"
+- ": Pourquoi ? Comment ?"
 - ": mission impossible ?"
 - ", mode d'emploi"
 - ", vite fait, bien fait"
