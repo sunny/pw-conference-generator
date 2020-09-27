@@ -83,13 +83,15 @@ start:
 - <verbe>, 15 minutes top chrono !
 - <techno> c’est maintenant (<techno> inclus)
 - comment ça c’est pas de <quelquechose> ?
-- formulaires <techno> <fin>
+- formulaires et <techno> <fin>
 - les neurosciences au service de <quelquechose> (fin)
 - table ronde de <quelquechose_pluriel>
-- comment bien gérer <quelquechose> quand on débute
+- comment bien gérer <quelquechose> <quelquepart>
 - <quelquechose> et <quelquechose>, sans bullshit
 - <techno> ou <techno> ? Quelle techno choisir et pour quel prix.
 - <techno>, <quelquechose> simple et <adjectif_singulier>
+- <quelquechose>… après tout, pourquoi pas ?
+- <techno>, <quelquechose> à l’heure de <quelquechose>
 
 article:
 - le
@@ -136,24 +138,27 @@ quelquechose_singulier:
 - la surveillance (plus_loin_ou_quelquepart)
 - la qualité web (plus_loin_ou_quelquepart)
 - le burnout (plus_loin_ou_quelquepart)
-- le monitoring
-- le routing
+- le monitoring (adjectif_masculin)
+- le routing (adjectif_masculin)
 - mon brainstorming
-- le pair-programing
-- le debugging
+- le pair-programing (adjectif_masculin)
+- le debugging (adjectif_masculin)
 - le responsive
 - l’éthique (adjectif_feminin)
 - l’accessibilité (adjectif_feminin)
 - la sécurité (adjectif_feminin)
 - l’aire de <quelquechose>
 - la conception (adjectif_feminin)
-- mon audit (techno)
-- l’algorithme
+- mon audit (techno) (adjectif_masculin)
+- l’algorithme (adjectif_masculin)
 - la macrotypographie de <quelquechose>
-- la page web
-- le facteur humain
-- la conduite de qualité
-- ma Progressive Web App
+- la page web (adjectif_feminin)
+- le facteur humain (adjectif_masculin)
+- la conduite de qualité (adjectif_feminin)
+- ma Progressive Web App (adjectif_feminin)
+- l’humanité
+- le greenwashing
+- l’anthropocène
 
 quelquechose_pluriel:
 - les obstacles sur le chemin de <quelquechose>
@@ -180,6 +185,7 @@ quelquechose_pluriel:
 - les relations client
 - les GAFAM
 - les réseaux sociaux
+- les PDF
 
 quelquechose_pluriel_feminin:
 - les compétences
@@ -216,13 +222,15 @@ techno:
 - WCAG
 - A11y
 - IA
-- PDF
 - AJAX
 - IE6
 - Firefox
 - Google Chrome
 - IE11
 - UTF-8
+- XHTML
+- WebRTC
+- GreenIT
 
 adjectif_masculin:
 - <adjectif_masculin> et <adjectif_masculin>
@@ -236,6 +244,13 @@ adjectif_masculin:
 - bienveillant
 - pertinent
 - inclusif
+- décentralisé
+- ouvert
+- fermé
+- intelligent
+- déstructuré
+- généralisé
+- isolé
 
 adjectif_feminin:
 - <adjectif_feminin> et <adjectif_feminin>
@@ -249,6 +264,13 @@ adjectif_feminin:
 - indépendante
 - pertinente
 - inclusive
+- décentralisée
+- ouverte
+- fermée
+- intelligente
+- déstructurée
+- généralisée
+- isolée
 
 adjectif_singulier:
 - <adjectif_masculin>
@@ -283,6 +305,15 @@ adjectif_singulier:
 - simple
 - facile
 - élégant
+- pirate
+- désirable
+- évitable
+- data-driven
+- smart
+- low-tech
+- high-tech
+- complexe
+- oubliable
 
 adjectif_masculin_pluriel:
 - <adjectif_pluriel>
@@ -295,6 +326,13 @@ adjectif_masculin_pluriel:
 - indépendants
 - pertinents
 - inclusifs
+- décentralisés
+- ouverts
+- fermés
+- intelligents
+- déstructurés
+- généralisés
+- isolés
 
 adjectif_feminin_pluriel:
 - <adjectif_pluriel>
@@ -308,6 +346,13 @@ adjectif_feminin_pluriel:
 - indépendantes
 - pertinentes
 - inclusives
+- décentralisées
+- ouvertes
+- fermées
+- intelligentes
+- déstructurées
+- généralisées
+- isolées
 
 adjectif_pluriel:
 - <adjectif_masculin_pluriel>
@@ -330,6 +375,22 @@ adjectif_pluriel:
 - pérennes
 - responsables
 - statiques
+- pirates
+- désirables
+- évitables
+- d’aujourd’hui
+- de demain
+- d’hier
+- "2.0"
+- <plus_loin>
+- <plus_loin>
+- WYSIWYG
+- data-driven
+- smart
+- low-tech
+- high-tech
+- complexe
+- oubliable
 
 verbe:
 - gérer la production (plus_loin)
@@ -350,6 +411,11 @@ verbe:
 - reprendre le contrôle de <quelquechose>
 - créer <quelquechose>
 - estimer <quelquechose> de <quelquechose>
+- vouloir <quelquechose>
+- justifier l’utilisation de <article> <techno>
+- pourfendre <quelquechose>
+- en finir une bonne fois pour toutes avec <quelquechose>
+- évangéliser <quelquechose>
 
 plus_loin:
 - de manière <adjectif_feminin>
@@ -365,6 +431,9 @@ plus_loin:
 - en protégeant sa vie privée
 - mobile-first
 - avec subtilité
+- quand on débute
+- en fin de carrière
+- pour un monde plus <adjectif_masculin>
 
 quelquepart:
 - chez Orange France
@@ -377,6 +446,8 @@ quelquepart:
 - sur le web
 - dans les internets
 - dans une grande entreprise
+- dans l’indifférence totale
+- dans le back-office de WordPress
 
 plus_loin_ou_quelquepart:
 - <plus_loin>
@@ -404,6 +475,7 @@ fin:
 - ", vers de nouveaux usages"
 - ", un grand pas pour le web"
 - "!"
+- "!!!"
 - ": mission impossible ?"
 - ", mode d’emploi"
 - ", vite fait, bien fait"
@@ -414,3 +486,5 @@ fin:
 - ": retour d’expérience"
 - ", <verbe> les yeux fermés"
 - ": où en est-on ? Que peut-on faire ?"
+- ", c’est pas aussi simple qu'on le croit"
+- ": un petit pas pour l’homme, un grand pas pour <quelquechose>"
