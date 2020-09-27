@@ -62,7 +62,8 @@ const fixWhitespace = (text) => {
   return text
     .replace(/ +/, " ")
     .replace(/ +([…,])/, "$1")
-    .replace(/ +([:?])/, "\xa0$1");
+    .replace(/ +([:?])/, "\xa0$1")
+    .trim();
 }
 
 const randomInteger = (min, max) => {
