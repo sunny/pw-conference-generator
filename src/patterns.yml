@@ -99,7 +99,10 @@ start:
 - "<quelquechose> ou <quelquechose> ? Ça dépend."
 - "“Hello World” en <techno> <fin>"
 - "<techno>, un genre de <techno> <plus_loin_ou_quelquepart>"
-
+- "comment <verbe> avec des valeurs <adjectif_feminin_pluriel> [fin]"
+- "<quelquechose>, est-ce soluble dans <quelquechose> ?"
+- "comment <quelquechose> inspire <quelquechose> [fin]"
+  
 article:
 - "le"
 - "le"
@@ -147,7 +150,7 @@ quelquechose_singulier:
 - "la couleur [adjectif_feminin]"
 - "l’éco-conception [adjectif_feminin]"
 - "l’édition <adjectif_feminin>"
-- "l'écriture <adjectif_feminin>"
+- "l’écriture <adjectif_feminin>"
 - "le RGAA 3"
 - "l’éco-conception [adjectif_feminin]"
 - "l’édition [adjectif_feminin]"
@@ -205,6 +208,13 @@ quelquechose_singulier:
 - "la mobilité"
 - "le business [adjectif_masculin]"
 - "le workload [quelquepart]"
+- "un territoire"
+- "l’intérêt général"
+- "le jeu vidéo"
+- "un dark pattern"
+- "la pratique professionnele de <quelquechose>"
+- "un smartphone [adjectif_masculin]"
+- "le code"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -222,6 +232,8 @@ quelquechose_pluriel:
 - "les checklists"
 - "les audits"
 - "les standards"
+- "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
+- "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
 - "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
 - "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
 - "les algorithmes"
@@ -242,10 +254,15 @@ quelquechose_pluriel:
 - "les retours client"
 - "les contrastes"
 - "les handicaps"
-- "les technologies d’assistance"
 - "les serveurs [adjectif_masculin_pluriel]"
 - "les formulaires"
 - "des économies de <quelquechose>"
+- "les territoires"
+- "les jeux vidéo"
+- "les dark patterns"
+- "les hackers [adjectif_masculin_pluriel]"
+- "les déploiements"
+- "les tests [adjectif_masculin_pluriel]"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -259,6 +276,7 @@ quelquechose_pluriel_feminin:
 - "les pages web"
 - "les entreprises"
 - "les ONG"
+- "les technologies d’assistance"
 
 techno:
 - "React"
@@ -301,6 +319,7 @@ techno:
 - "CGI"
 - "Perl"
 - "Asm.js"
+- "Photoshop"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -329,6 +348,7 @@ adjectif_masculin:
 - "connecté"
 - "déconnecté"
 - "disjoint"
+- "professionnel"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -357,6 +377,7 @@ adjectif_feminin:
 - "connectée"
 - "déconnectée"
 - "disjointe"
+- "professionnelle"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -404,6 +425,9 @@ adjectif_singulier:
 - "dystopique"
 - "utopique"
 - "en ligne"
+- "magique"
+- "bidouillable"
+- "hackable"
 
 adjectif_masculin_pluriel:
 - "<adjectif_pluriel>"
@@ -429,6 +453,7 @@ adjectif_masculin_pluriel:
 - "connectés"
 - "déconnectés"
 - "disjoints"
+- "professionnels"
 
 adjectif_feminin_pluriel:
 - "<adjectif_pluriel>"
@@ -455,6 +480,7 @@ adjectif_feminin_pluriel:
 - "connectées"
 - "déconnectées"
 - "disjointes"
+- "professionnelles"
 
 adjectif_tous_genres_pluriel:
 - "<adjectif_masculin_pluriel>"
@@ -508,6 +534,9 @@ adjectif_pluriel:
 - "hors-lignes"
 - "propres"
 - "étranges"
+- "magiques"
+- "bidouillables"
+- "hackables"
 
 verbe:
 - "gérer la production [plus_loin]"
@@ -541,6 +570,8 @@ verbe:
 - "mettre en doute <quelquechose> [plus_loin_ou_quelquepart]"
 - "implémenter <quelquechose> [quelquepart]"
 - "déplacer <quelquechose> [plus_loin_ou_quelquepart]"
+- "se connecter [plus_loin_ou_quelquepart]"
+- "déployer <quelquechose> [plus_loin_ou_quelquepart]"
 
 plus_loin:
 - "de manière <adjectif_feminin>"
@@ -567,6 +598,8 @@ plus_loin:
 - "sous stéroïdes"
 - "avec PostGIS"
 - "via le VPN"
+- "avant tout le monde"
+- "pas seulement parce que c’est la mode"
 
 quelquepart:
 - "chez Orange France"
@@ -594,6 +627,7 @@ quelquepart:
 - "en WiFi"
 - "en temps de pandémie"
 - "en situation de confinement"
+- "en local"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
