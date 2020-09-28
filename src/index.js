@@ -23,12 +23,17 @@ const generateName = () => {
 
   const url = new URL(document.location);
   url.searchParams.set("c", encode(text));
-  window.history.pushState({}, "", url.href)
+  window.history.pushState({}, "", url.href);
 }
 
 const fillName = (text) => {
-  const nameTarget = document.querySelector("[data-conference-name]");
-  nameTarget.innerText = `«\xa0${text}\xa0»`
+  text = `«\xa0${text}\xa0»`
+
+  const name = document.querySelector("[data-conference-name]")
+  name.innerText = text;
+
+  const title = document.querySelector("title")
+  title.innerText = `${text} — ${title.dataset.title}`;
 }
 
 class RandomText {
