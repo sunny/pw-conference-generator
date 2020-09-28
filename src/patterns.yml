@@ -203,6 +203,8 @@ quelquechose_singulier:
 - "la parité dans les équipes [adjectif_feminin_pluriel]"
 - "la disruption de <quelquechose>"
 - "votre roadmap"
+- "la mixité [adjectif_feminin]"
+- "le mélange"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -397,6 +399,7 @@ adjectif_singulier:
 - "dystopique"
 - "utopique"
 - "en ligne"
+- "mixte"
 
 adjectif_masculin_pluriel:
 - "<adjectif_pluriel>"
@@ -497,6 +500,7 @@ adjectif_pluriel:
 - "complexes"
 - "oubliables"
 - "hors-lignes"
+- "mixtes"
 
 verbe:
 - "gérer la production [plus_loin]"
