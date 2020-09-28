@@ -65,7 +65,7 @@ start:
 - "<quelquechose> 2.0"
 - "vers une bonne pratique de <quelquechose> [quelquepart]"
 - "découper <quelquechose> : pourquoi ? Comment ?"
-- "<quelquechose>, <quelquechose>, <quelquechose>, faut-il réinventer <quelquechose_singulier> pour éviter la dystopie ?"
+- "<quelquechose>, faut-il <verbe> [plus_loin_ou_quelquepart] ?"
 - "le jour où l’on n’aura plus besoin de <quelquechose> [plus_loin_ou_quelquepart]"
 - "évaluer <quelquechose> : des méthodes simples et efficaces"
 - "<quelquechose_pluriel> : vers de nouveaux usages dans <quelquechose_singulier> [plus_loin]"
@@ -102,6 +102,10 @@ start:
 - "<techno>, <quelquechose_singulier> de <quelquechose>"
 - "quelle est la place pour <quelquechose> au sein de <quelquechose> [plus_loin_ou_quelquepart] ?"
 - "faut-il repenser <quelquechose> <plus_loin_ou_quelquepart> [fin]"
+- "comment <verbe> avec des valeurs <adjectif_feminin_pluriel> [fin]"
+- "<quelquechose>, est-ce soluble dans <quelquechose> ?"
+- "comment <quelquechose> inspire <quelquechose> [fin]"
+- "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
 
 article:
 - "le"
@@ -150,7 +154,7 @@ quelquechose_singulier:
 - "la couleur [adjectif_feminin]"
 - "l’éco-conception [adjectif_feminin]"
 - "l’édition <adjectif_feminin>"
-- "l'écriture <adjectif_feminin>"
+- "l’écriture <adjectif_feminin>"
 - "le RGAA 3"
 - "l’éco-conception [adjectif_feminin]"
 - "l’édition [adjectif_feminin]"
@@ -213,10 +217,20 @@ quelquechose_singulier:
 - "votre roadmap"
 - "la mixité [adjectif_feminin]"
 - "le mélange"
-- "la passation [adjectif_feminin]"
 - "la mobilité"
 - "le business [adjectif_masculin]"
 - "le workload [quelquepart]"
+- "un territoire"
+- "l’intérêt général"
+- "le jeu vidéo"
+- "un dark pattern"
+- "la pratique professionnelle de <quelquechose>"
+- "un smartphone [adjectif_masculin]"
+- "le code [adjectif_masculin]"
+- "la stack technique"
+- "la containerisation"
+- "un side-project [adjectif_masculin]"
+- "la dystopie"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -256,7 +270,6 @@ quelquechose_pluriel:
 - "les retours client"
 - "les contrastes"
 - "les handicaps"
-- "les technologies d’assistance"
 - "les serveurs [adjectif_masculin_pluriel]"
 - "les formulaires [adjectif_masculin_pluriel]"
 - "les usages"
@@ -264,6 +277,14 @@ quelquechose_pluriel:
 - "les roadmaps"
 - "les formulaires"
 - "des économies de <quelquechose>"
+- "les territoires"
+- "les jeux vidéo"
+- "les dark patterns"
+- "les hackers [adjectif_masculin_pluriel]"
+- "les déploiements"
+- "les tests [adjectif_masculin_pluriel]"
+- "les Web Components"
+- "vos side-projects"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -277,6 +298,9 @@ quelquechose_pluriel_feminin:
 - "les pages web"
 - "les entreprises"
 - "les ONG"
+- "les technologies d’assistance"
+- "vos valeurs"
+- "les nouvelles réglementations"
 
 techno:
 - "React"
@@ -293,7 +317,6 @@ techno:
 - "CSS"
 - "SASS"
 - "RGAA 3.0"
-- "Web Component"
 - "HTML5"
 - "JavaScript"
 - "ARIA"
@@ -320,6 +343,8 @@ techno:
 - "CGI"
 - "Perl"
 - "Asm.js"
+- "Photoshop"
+- "Docker"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -348,6 +373,7 @@ adjectif_masculin:
 - "connecté"
 - "déconnecté"
 - "disjoint"
+- "professionnel"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -376,6 +402,7 @@ adjectif_feminin:
 - "connectée"
 - "déconnectée"
 - "disjointe"
+- "professionnelle"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -424,8 +451,13 @@ adjectif_singulier:
 - "utopique"
 - "en ligne"
 - "mixte"
+- "magique"
+- "bidouillable"
+- "hackable"
+- "unitaire"
 
 adjectif_masculin_pluriel:
+- "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
@@ -449,8 +481,10 @@ adjectif_masculin_pluriel:
 - "connectés"
 - "déconnectés"
 - "disjoints"
+- "professionnels"
 
 adjectif_feminin_pluriel:
+- "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
@@ -475,19 +509,13 @@ adjectif_feminin_pluriel:
 - "connectées"
 - "déconnectées"
 - "disjointes"
-
-adjectif_tous_genres_pluriel:
-- "<adjectif_masculin_pluriel>"
-- "<adjectif_masculin_pluriel>"
-- "<adjectif_masculin_pluriel>"
-- "<adjectif_feminin_pluriel>"
-- "<adjectif_feminin_pluriel>"
-- "<adjectif_feminin_pluriel>"
-- "<adjectif_pluriel>"
-- "<adjectif_pluriel>"
-- "<adjectif_pluriel>"
+- "professionnelles"
 
 adjectif_pluriel:
+- "<plus_loin>"
+- "<plus_loin>"
+- "<plus_loin>"
+- "<plus_loin>"
 - "éthiques"
 - "accessibles"
 - "web"
@@ -497,7 +525,6 @@ adjectif_pluriel:
 - "incontournables"
 - "lisibles"
 - "invisibles"
-- "<plus_loin>"
 - "rapides"
 - "lisibles"
 - "compréhensibles"
@@ -513,8 +540,6 @@ adjectif_pluriel:
 - "de demain"
 - "d’hier"
 - "2.0"
-- "<plus_loin>"
-- "<plus_loin>"
 - "WYSIWYG"
 - "data-driven"
 - "smart"
@@ -529,6 +554,10 @@ adjectif_pluriel:
 - "mixtes"
 - "propres"
 - "étranges"
+- "magiques"
+- "bidouillables"
+- "hackables"
+- "unitaires"
 
 verbe:
 - "gérer la production [plus_loin]"
@@ -536,7 +565,7 @@ verbe:
 - "comprendre <quelquechose>"
 - "surmonter <quelquechose>"
 - "définir <quelquechose>"
-- "déployer <quelquechose>"
+- "déployer <quelquechose> [plus_loin_ou_quelquepart]"
 - "organiser <quelquechose>"
 - "hiérarchiser <quelquechose>"
 - "rendre accessible <quelquechose>"
@@ -552,7 +581,7 @@ verbe:
 - "vouloir <quelquechose> [plus_loin_ou_quelquepart]"
 - "justifier l’utilisation de <article> <techno>"
 - "pourfendre <quelquechose>"
-- "en finir une bonne fois pour toutes avec <quelquechose>"
+- "en finir avec <quelquechose>"
 - "évangéliser <quelquechose>"
 - "envisager <quelquechose> [quelquepart]"
 - "migrer <quelquechose> [quelquepart]"
@@ -565,7 +594,14 @@ verbe:
 - "disrupter <quelquechose> [plus_loin_ou_quelquepart]"
 - "implémenter <quelquechose> [quelquepart]"
 - "déplacer <quelquechose> [plus_loin_ou_quelquepart]"
-
+- "se connecter [plus_loin_ou_quelquepart]"
+- "dockeriser <techno> <plus_loin_ou_quelquepart>"
+- "déployer un vendredi après-midi"
+- "hacker <quelquechose> [plus_loin_ou_quelquepart]"
+- "se laisser dépasser par <quelquechose> [plus_loin_ou_quelquepart]"
+- "réinventer <quelquechose>"
+- "éviter <quelquechose>"
+  
 plus_loin:
 - "de manière <adjectif_feminin>"
 - "à grande échelle"
@@ -594,6 +630,14 @@ plus_loin:
 - "sans <techno>"
 - "avec PostGIS"
 - "via le VPN"
+- "avant tout le monde"
+- "pas seulement parce que c’est la mode"
+- "via <techno>"
+- "au doigt mouillé"
+- "avec beaucoup de boucles if-then"
+- "en amélioration continue"
+- "avec des outils mal conçus"
+- "pour <verbe>"
 
 quelquepart:
 - "chez Orange France"
@@ -625,6 +669,7 @@ quelquepart:
 - "en console"
 - "dans le terminal"
 - "en agence"
+- "en local"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
@@ -674,4 +719,11 @@ fin:
 - ": pourquoi ? Comment ?"
 - "en 30 minutes"
 - "à 100 à l’heure"
-- " (<plus_loin_ou_quelquepart>)"
+- ", pourquoi chercher plus loin ?"
+- "(<plus_loin_ou_quelquepart>)"
+- "(<plus_loin>)"
+- "(<quelquepart>)"
+- "<plus_loin_ou_quelquepart>"
+- "<plus_loin>"
+- "<quelquepart>"
+- "une bonne fois pour toutes"
