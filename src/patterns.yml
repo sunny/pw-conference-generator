@@ -281,6 +281,7 @@ quelquechose_pluriel:
 - "les hackers [adjectif_masculin_pluriel]"
 - "les déploiements"
 - "les tests [adjectif_masculin_pluriel]"
+- "les Web Components"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -312,7 +313,6 @@ techno:
 - "CSS"
 - "SASS"
 - "RGAA 3.0"
-- "Web Component"
 - "HTML5"
 - "JavaScript"
 - "ARIA"
@@ -451,6 +451,7 @@ adjectif_singulier:
 - "magique"
 - "bidouillable"
 - "hackable"
+- "unitaire"
 
 adjectif_masculin_pluriel:
 - "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
@@ -553,6 +554,7 @@ adjectif_pluriel:
 - "magiques"
 - "bidouillables"
 - "hackables"
+- "unitaires"
 
 verbe:
 - "gérer la production [plus_loin]"
