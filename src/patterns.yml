@@ -202,6 +202,7 @@ quelquechose_singulier:
 - "la FrenchTech"
 - "la parité dans les équipes [adjectif_feminin_pluriel]"
 - "la disruption de <quelquechose>"
+- "votre roadmap"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -246,6 +247,7 @@ quelquechose_pluriel:
 - "les formulaires [adjectif_masculin_pluriel]"
 - "les usages"
 - "les processus"
+- "les roadmaps"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -580,8 +582,10 @@ quelquepart:
 - "en WiFi"
 - "en temps de pandémie"
 - "en situation de confinement"
+- "dans le code"
 - "en console"
 - "dans le terminal"
+- "en agence"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
