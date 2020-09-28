@@ -118,6 +118,12 @@ quelquechose:
 - "[article] <techno>"
 
 quelquechose_singulier:
+- "le pooling"
+- "la localisation"
+- "la fatigue"
+- "l’implémentation"
+- "l’implémentation [adjectif_feminin]"
+- "l’implémentation en <techno>"
 - "un modèle pour <quelquechose>"
 - "le design [adjectif_masculin]"
 - "l’accessibilité"
@@ -164,6 +170,7 @@ quelquechose_singulier:
 - "l’accessibilité [adjectif_feminin]"
 - "la sécurité [adjectif_feminin]"
 - "l’aire de <quelquechose>"
+- "le paradigme [adjectif_masculin]"
 - "la conception [adjectif_feminin]"
 - "mon audit [techno] [adjectif_masculin]"
 - "l’algorithme [adjectif_masculin]"
@@ -188,6 +195,7 @@ quelquechose_singulier:
 - "la 5G"
 - "la diversité"
 - "l’intégration"
+- "l’intégration [adjectif_feminin]"
 - "le livre numérique"
 - "mon designer"
 - "l’impact de <quelquechose>"
@@ -205,6 +213,10 @@ quelquechose_singulier:
 - "votre roadmap"
 - "la mixité [adjectif_feminin]"
 - "le mélange"
+- "la passation [adjectif_feminin]"
+- "la mobilité"
+- "le business [adjectif_masculin]"
+- "le workload [quelquepart]"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -250,6 +262,8 @@ quelquechose_pluriel:
 - "les usages"
 - "les processus"
 - "les roadmaps"
+- "les formulaires"
+- "des économies de <quelquechose>"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -262,6 +276,7 @@ quelquechose_pluriel_feminin:
 - "les intégratrices"
 - "les pages web"
 - "les entreprises"
+- "les ONG"
 
 techno:
 - "React"
@@ -300,6 +315,11 @@ techno:
 - "FORTRAN"
 - "VueJS"
 - "RSS"
+- "Rust"
+- "Rest"
+- "CGI"
+- "Perl"
+- "Asm.js"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -327,6 +347,7 @@ adjectif_masculin:
 - "syndiqué"
 - "connecté"
 - "déconnecté"
+- "disjoint"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -354,6 +375,7 @@ adjectif_feminin:
 - "syndiquée"
 - "connectée"
 - "déconnectée"
+- "disjointe"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -363,6 +385,8 @@ adjectif_singulier:
 - "éthique"
 - "accessible"
 - "junior"
+- "propre"
+- "étrange"
 - "au féminin"
 - "numérique"
 - "d’aujourd’hui"
@@ -424,6 +448,7 @@ adjectif_masculin_pluriel:
 - "syndiqués"
 - "connectés"
 - "déconnectés"
+- "disjoints"
 
 adjectif_feminin_pluriel:
 - "<adjectif_pluriel>"
@@ -449,6 +474,7 @@ adjectif_feminin_pluriel:
 - "syndiquées"
 - "connectées"
 - "déconnectées"
+- "disjointes"
 
 adjectif_tous_genres_pluriel:
 - "<adjectif_masculin_pluriel>"
@@ -501,6 +527,8 @@ adjectif_pluriel:
 - "oubliables"
 - "hors-lignes"
 - "mixtes"
+- "propres"
+- "étranges"
 
 verbe:
 - "gérer la production [plus_loin]"
@@ -535,6 +563,8 @@ verbe:
 - "mettre <quelquechose> <plus_loin_ou_quelquepart>"
 - "remplacer <quelquechose> par <quelquechose> [plus_loin_ou_quelquepart]"
 - "disrupter <quelquechose> [plus_loin_ou_quelquepart]"
+- "implémenter <quelquechose> [quelquepart]"
+- "déplacer <quelquechose> [plus_loin_ou_quelquepart]"
 
 plus_loin:
 - "de manière <adjectif_feminin>"
@@ -562,6 +592,8 @@ plus_loin:
 - "sous stéroïdes"
 - "avec <techno>"
 - "sans <techno>"
+- "avec PostGIS"
+- "via le VPN"
 
 quelquepart:
 - "chez Orange France"
@@ -580,6 +612,9 @@ quelquepart:
 - "à distance"
 - "en peer 2 peer"
 - "sur Slack"
+- "sur IRC"
+- "dans un Trello"
+- "sur un coin de table"
 - "en conférence"
 - "dans le Cloud"
 - "en administrations"
