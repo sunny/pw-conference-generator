@@ -105,6 +105,7 @@ start:
 - "comment <verbe> avec des valeurs <adjectif_feminin_pluriel> [fin]"
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
 - "comment <quelquechose> inspire <quelquechose> [fin]"
+- "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
 
 article:
 - "le"
@@ -227,6 +228,7 @@ quelquechose_singulier:
 - "un smartphone [adjectif_masculin]"
 - "le code [adjectif_masculin]"
 - "la stack technique"
+- "la containerisation"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -338,6 +340,7 @@ techno:
 - "Perl"
 - "Asm.js"
 - "Photoshop"
+- "Docker"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -398,6 +401,7 @@ adjectif_feminin:
 - "professionnelle"
 
 adjectif_singulier:
+- "<adjectif_singulier> et <adjectif_singulier>"
 - "<plus_loin>"
 - "<plus_loin>"
 - "<plus_loin>"
@@ -449,6 +453,7 @@ adjectif_singulier:
 - "hackable"
 
 adjectif_masculin_pluriel:
+- "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
@@ -475,6 +480,7 @@ adjectif_masculin_pluriel:
 - "professionnels"
 
 adjectif_feminin_pluriel:
+- "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
 - "<adjectif_pluriel>"
@@ -501,18 +507,8 @@ adjectif_feminin_pluriel:
 - "disjointes"
 - "professionnelles"
 
-adjectif_tous_genres_pluriel:
-- "<adjectif_masculin_pluriel>"
-- "<adjectif_masculin_pluriel>"
-- "<adjectif_masculin_pluriel>"
-- "<adjectif_feminin_pluriel>"
-- "<adjectif_feminin_pluriel>"
-- "<adjectif_feminin_pluriel>"
-- "<adjectif_pluriel>"
-- "<adjectif_pluriel>"
-- "<adjectif_pluriel>"
-
 adjectif_pluriel:
+- "<adjectif_pluriel> et <adjectif_pluriel>"
 - "éthiques"
 - "accessibles"
 - "web"
@@ -595,7 +591,11 @@ verbe:
 - "déplacer <quelquechose> [plus_loin_ou_quelquepart]"
 - "se connecter [plus_loin_ou_quelquepart]"
 - "déployer <quelquechose> [plus_loin_ou_quelquepart]"
-
+- "dockeriser <techno> <plus_loin_ou_quelquepart>"
+- "déployer un vendredi après-midi"
+- "hacker <quelquechose> [plus_loin_ou_quelquepart]"
+- "se laisser dépasser par <quelquechose> [plus_loin_ou_quelquepart]"
+  
 plus_loin:
 - "de manière <adjectif_feminin>"
 - "à grande échelle"
@@ -626,6 +626,10 @@ plus_loin:
 - "via le VPN"
 - "avant tout le monde"
 - "pas seulement parce que c’est la mode"
+- "via <techno>"
+- "au doigt mouillé"
+- "avec beaucoup de boucles if-then"
+- "en amélioration continue"
 
 quelquepart:
 - "chez Orange France"
@@ -708,3 +712,4 @@ fin:
 - "en 30 minutes"
 - "à 100 à l’heure"
 - " (<plus_loin_ou_quelquepart>)"
+- ", pourquoi chercher plus loin ?"
