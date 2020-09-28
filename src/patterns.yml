@@ -65,7 +65,7 @@ start:
 - "<quelquechose> 2.0"
 - "vers une bonne pratique de <quelquechose> [quelquepart]"
 - "découper <quelquechose> : pourquoi ? Comment ?"
-- "<quelquechose>, <quelquechose>, <quelquechose>, faut-il réinventer <quelquechose_singulier> pour éviter la dystopie ?"
+- "<quelquechose>, faut-il <verbe> [plus_loin_ou_quelquepart] ?"
 - "le jour où l’on n’aura plus besoin de <quelquechose> [plus_loin_ou_quelquepart]"
 - "évaluer <quelquechose> : des méthodes simples et efficaces"
 - "<quelquechose_pluriel> : vers de nouveaux usages dans <quelquechose_singulier> [plus_loin]"
@@ -230,6 +230,7 @@ quelquechose_singulier:
 - "la stack technique"
 - "la containerisation"
 - "un side-project [adjectif_masculin]"
+- "la dystopie"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -404,7 +405,6 @@ adjectif_feminin:
 - "professionnelle"
 
 adjectif_singulier:
-- "<adjectif_singulier> et <adjectif_singulier>"
 - "<plus_loin>"
 - "<plus_loin>"
 - "<plus_loin>"
@@ -512,6 +512,10 @@ adjectif_feminin_pluriel:
 - "professionnelles"
 
 adjectif_pluriel:
+- "<plus_loin>"
+- "<plus_loin>"
+- "<plus_loin>"
+- "<plus_loin>"
 - "éthiques"
 - "accessibles"
 - "web"
@@ -521,7 +525,6 @@ adjectif_pluriel:
 - "incontournables"
 - "lisibles"
 - "invisibles"
-- "<plus_loin>"
 - "rapides"
 - "lisibles"
 - "compréhensibles"
@@ -537,8 +540,6 @@ adjectif_pluriel:
 - "de demain"
 - "d’hier"
 - "2.0"
-- "<plus_loin>"
-- "<plus_loin>"
 - "WYSIWYG"
 - "data-driven"
 - "smart"
@@ -580,7 +581,7 @@ verbe:
 - "vouloir <quelquechose> [plus_loin_ou_quelquepart]"
 - "justifier l’utilisation de <article> <techno>"
 - "pourfendre <quelquechose>"
-- "en finir une bonne fois pour toutes avec <quelquechose>"
+- "en finir avec <quelquechose>"
 - "évangéliser <quelquechose>"
 - "envisager <quelquechose> [quelquepart]"
 - "migrer <quelquechose> [quelquepart]"
@@ -598,6 +599,8 @@ verbe:
 - "déployer un vendredi après-midi"
 - "hacker <quelquechose> [plus_loin_ou_quelquepart]"
 - "se laisser dépasser par <quelquechose> [plus_loin_ou_quelquepart]"
+- "réinventer <quelquechose>"
+- "éviter <quelquechose>"
   
 plus_loin:
 - "de manière <adjectif_feminin>"
@@ -634,6 +637,7 @@ plus_loin:
 - "avec beaucoup de boucles if-then"
 - "en amélioration continue"
 - "avec des outils mal conçus"
+- "pour <verbe>"
 
 quelquepart:
 - "chez Orange France"
@@ -722,3 +726,4 @@ fin:
 - "<plus_loin_ou_quelquepart>"
 - "<plus_loin>"
 - "<quelquepart>"
+- "une bonne fois pour toutes"
