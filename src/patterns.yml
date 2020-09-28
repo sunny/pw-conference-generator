@@ -564,7 +564,7 @@ verbe:
 - "comprendre <quelquechose>"
 - "surmonter <quelquechose>"
 - "définir <quelquechose>"
-- "déployer <quelquechose>"
+- "déployer <quelquechose> [plus_loin_ou_quelquepart]"
 - "organiser <quelquechose>"
 - "hiérarchiser <quelquechose>"
 - "rendre accessible <quelquechose>"
@@ -594,7 +594,6 @@ verbe:
 - "implémenter <quelquechose> [quelquepart]"
 - "déplacer <quelquechose> [plus_loin_ou_quelquepart]"
 - "se connecter [plus_loin_ou_quelquepart]"
-- "déployer <quelquechose> [plus_loin_ou_quelquepart]"
 - "dockeriser <techno> <plus_loin_ou_quelquepart>"
 - "déployer un vendredi après-midi"
 - "hacker <quelquechose> [plus_loin_ou_quelquepart]"
@@ -634,6 +633,7 @@ plus_loin:
 - "au doigt mouillé"
 - "avec beaucoup de boucles if-then"
 - "en amélioration continue"
+- "avec des outils mal conçus"
 
 quelquepart:
 - "chez Orange France"
