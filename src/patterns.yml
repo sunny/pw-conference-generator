@@ -95,7 +95,7 @@ start:
 - "<quelquechose>… après tout, pourquoi pas ?"
 - "<techno>, <quelquechose> à l’heure de <quelquechose>"
 - "<techno>, <techno>, <techno>, 😅"
-- "<quelquechose>, ou <quelquechose> ? Ça dépend."
+- "<quelquechose> ou <quelquechose> ? Ça dépend."
 - "“Hello World” en <techno> <fin>"
 - "<techno>, un genre de <techno> <plus_loin_ou_quelquepart>"
 
@@ -215,7 +215,7 @@ quelquechose_pluriel:
 - "les algorithmes"
 - "les navigateurs"
 - "les entreprises [adjectif_feminin_pluriel]"
-- "les contenus [adjectif_feminin_pluriel]"
+- "les contenus [adjectif_masculin_pluriel]"
 - "les relations client"
 - "les GAFAM"
 - "les réseaux sociaux"
@@ -231,7 +231,7 @@ quelquechose_pluriel:
 - "les contrastes"
 - "les handicaps"
 - "les technologies d’assistance"
-- "les serveurs"
+- "les serveurs [adjectif_masculin_pluriel]"
 - "les formulaires"
 
 quelquechose_pluriel_feminin:
