@@ -35,7 +35,7 @@ html, body {
 }
 
 .conferenceName {
-  font: xxx-large "PT Sans Narrow", "Helvetica Neue", "Helvetica", Arial,
+  font: xx-large "PT Sans Narrow", "Helvetica Neue", "Helvetica", Arial,
 sans-serif;
   font-weight: bold;
   margin: 0 auto .25em;
@@ -43,6 +43,12 @@ sans-serif;
   flex-grow: 1;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 60em) {
+  .conferenceName {
+    font-size: xxx-large;
+  }
 }
 
 .btn {
