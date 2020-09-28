@@ -98,6 +98,9 @@ start:
 - "<quelquechose> ou <quelquechose> ? Ça dépend."
 - "“Hello World” en <techno> <fin>"
 - "<techno>, un genre de <techno> <plus_loin_ou_quelquepart>"
+- "<techno>, <quelquechose_singulier> de <quelquechose>"
+- "quelle est la place pour <quelquechose> au sein de <quelquechose> [plus_loin_ou_quelquepart] ?"
+- "faut-il repenser <quelquechose> <plus_loin_ou_quelquepart> [fin]"
 
 article:
 - "le"
@@ -192,7 +195,12 @@ quelquechose_singulier:
 - "l’infrastructure"
 - "le framework [techno]"
 - "l’enseignement [adjectif_masculin]"
-- "la passation [adjectif_feminin]"
+- "la loi"
+- "la nouvelle réglementation"
+- "la console JavaScript"
+- "la FrenchTech"
+- "la parité dans les équipes [adjectif_feminin_pluriel]"
+- "la disruption de <quelquechose>"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -212,6 +220,8 @@ quelquechose_pluriel:
 - "les standards"
 - "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
 - "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
+- "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
+- "<quelquechose_pluriel_feminin> [adjectif_feminin_pluriel]"
 - "les algorithmes"
 - "les navigateurs"
 - "les entreprises [adjectif_feminin_pluriel]"
@@ -224,15 +234,17 @@ quelquechose_pluriel:
 - "les développeurs [adjectif_masculin_pluriel]"
 - "les intégrateurs"
 - "les vieux de la vieille"
-- "les stagiaires"
-- "les clients"
-- "les annonceurs"
+- "les stagiaires [adjectif_masculin_pluriel]"
+- "les clients [adjectif_masculin_pluriel]"
+- "les annonceurs [adjectif_masculin_pluriel]"
 - "les retours client"
 - "les contrastes"
 - "les handicaps"
 - "les technologies d’assistance"
 - "les serveurs [adjectif_masculin_pluriel]"
-- "les formulaires"
+- "les formulaires [adjectif_masculin_pluriel]"
+- "les usages"
+- "les processus"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -282,6 +294,7 @@ techno:
 - "MySQL"
 - "FORTRAN"
 - "VueJS"
+- "RSS"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -512,6 +525,9 @@ verbe:
 - "réparer <quelquechose>"
 - "rétablir la vérité sur <quelquechose> [plus_loin_ou_quelquepart]"
 - "mettre en doute <quelquechose> [plus_loin_ou_quelquepart]"
+- "mettre <quelquechose> <plus_loin_ou_quelquepart>"
+- "remplacer <quelquechose> par <quelquechose> [plus_loin_ou_quelquepart]"
+- "disrupter <quelquechose> [plus_loin_ou_quelquepart]"
 
 plus_loin:
 - "de manière <adjectif_feminin>"
@@ -519,7 +535,8 @@ plus_loin:
 - "en agence"
 - "du futur"
 - "à distance"
-- "avec HTML et CSS"
+- "avec du HTML et du CSS"
+- "en JS"
 - "en mode projet"
 - "au delà des spécifications"
 - "de qualité"
@@ -536,6 +553,8 @@ plus_loin:
 - "pour l’ADSL"
 - "avant optimisation"
 - "sous stéroïdes"
+- "avec <techno>"
+- "sans <techno>"
 
 quelquepart:
 - "chez Orange France"
@@ -560,6 +579,8 @@ quelquepart:
 - "en WiFi"
 - "en temps de pandémie"
 - "en situation de confinement"
+- "en console"
+- "dans le terminal"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
