@@ -59,7 +59,7 @@ class RandomText {
     // optional [tags]
     text = text.replace(/\[(.*?)\]/, (match, tag) => {
       replaced = true;
-      return (Math.random() < 0.3) ? this.pick(tag) : "";
+      return (Math.random() < 0.5) ? this.pick(tag) : "";
     })
 
     return replaced ? this.applyReplacements(text) : text;
