@@ -2,14 +2,27 @@ import patterns from "./patterns.yml"
 
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector("[data-conference-generate]")
-
   button.addEventListener("click", generateName);
-  generateName();
+
+  const code = (new URL(document.location)).searchParams.get("c");
+  if (code) {
+    fillName(decode(code));
+  } else {
+    generateName();
+  }
 });
 
 const generateName = () => {
-  const nameTarget = document.querySelector("[data-conference-name]");
   const text = new RandomText(patterns).toString();
+  fillName(text);
+
+  const url = new URL(document.location);
+  url.searchParams.set("c", encode(text));
+  window.history.pushState({}, "", url.href)
+}
+
+const fillName = (text) => {
+  const nameTarget = document.querySelector("[data-conference-name]");
   nameTarget.innerText = `«\xa0${text}\xa0»`
 }
 
@@ -74,10 +87,27 @@ const fixTypos = (text) => {
     .replace(/ de ([aAeEiIoOuUué])/g, " d’$1")
 }
 
-const randomInteger = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
 const copy = (object) => {
   return JSON.parse(JSON.stringify(object))
+}
+
+// https://attacomsian.com/blog/javascript-base64-encode-decode
+function encode(text) {
+  // First we use encodeURIComponent to get percent-encoded UTF-8,
+  // then we convert the percent encodings into raw bytes which
+  // can be fed into btoa.
+  return btoa(
+    encodeURIComponent(text)
+      .replace(/%([0-9A-F]{2})/g, (match, b) => String.fromCharCode('0x' + b))
+  );
+}
+
+function decode(text) {
+  // Going backwards: from bytetexteam, to percent-encoding, to original string.
+  return decodeURIComponent(
+    atob(text)
+      .split('')
+      .map(c => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2))
+      .join('')
+  )
 }
