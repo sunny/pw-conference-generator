@@ -4,13 +4,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector("[data-conference-generate]")
   button.addEventListener("click", generateName);
 
+  window.addEventListener("popstate", init)
+  init()
+});
+
+const init = () => {
   const code = (new URL(document.location)).searchParams.get("c");
   if (code) {
     fillName(decode(code));
   } else {
     generateName();
   }
-});
+}
 
 const generateName = () => {
   const text = new RandomText(patterns).toString();
