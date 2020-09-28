@@ -13,7 +13,7 @@ const init = () => {
   if (code) {
     fillName(decode(code));
   } else {
-    generateName();
+    fillName(new RandomText(patterns).toString());
   }
 }
 
