@@ -229,6 +229,7 @@ quelquechose_singulier:
 - "le code [adjectif_masculin]"
 - "la stack technique"
 - "la containerisation"
+- "un side-project [adjectif_masculin]"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -282,6 +283,7 @@ quelquechose_pluriel:
 - "les déploiements"
 - "les tests [adjectif_masculin_pluriel]"
 - "les Web Components"
+- "vos side-projects"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -297,6 +299,7 @@ quelquechose_pluriel_feminin:
 - "les ONG"
 - "les technologies d’assistance"
 - "vos valeurs"
+- "les nouvelles réglementations"
 
 techno:
 - "React"
