@@ -109,7 +109,7 @@ function encode(text) {
   return btoa(
     encodeURIComponent(text)
       .replace(/%([0-9A-F]{2})/g, (match, b) => String.fromCharCode('0x' + b))
-  );
+  ).replace(/=+$/, '');
 }
 
 function decode(text) {
