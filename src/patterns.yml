@@ -205,6 +205,7 @@ quelquechose_singulier:
 - "la mobilité"
 - "le business [adjectif_masculin]"
 - "des économies de <quelquechose>"
+- "le workload [quelquepart]"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -245,7 +246,6 @@ quelquechose_pluriel:
 - "les technologies d’assistance"
 - "les serveurs [adjectif_masculin_pluriel]"
 - "les formulaires"
-- "le workload [adjectif_masculin]"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
