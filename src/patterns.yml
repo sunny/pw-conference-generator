@@ -204,7 +204,6 @@ quelquechose_singulier:
 - "la passation [adjectif_feminin]"
 - "la mobilité"
 - "le business [adjectif_masculin]"
-- "des économies de <quelquechose>"
 - "le workload [quelquepart]"
 
 quelquechose_pluriel:
@@ -246,6 +245,7 @@ quelquechose_pluriel:
 - "les technologies d’assistance"
 - "les serveurs [adjectif_masculin_pluriel]"
 - "les formulaires"
+- "des économies de <quelquechose>"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -328,7 +328,7 @@ adjectif_masculin:
 - "syndiqué"
 - "connecté"
 - "déconnecté"
-- "propre"
+- "disjoint"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -356,7 +356,6 @@ adjectif_feminin:
 - "syndiquée"
 - "connectée"
 - "déconnectée"
-- "propre"
 - "disjointe"
 
 adjectif_singulier:
@@ -367,6 +366,8 @@ adjectif_singulier:
 - "éthique"
 - "accessible"
 - "junior"
+- "propre"
+- "étrange"
 - "au féminin"
 - "numérique"
 - "d’aujourd’hui"
@@ -427,7 +428,7 @@ adjectif_masculin_pluriel:
 - "syndiqués"
 - "connectés"
 - "déconnectés"
-- "étranges"
+- "disjoints"
 
 adjectif_feminin_pluriel:
 - "<adjectif_pluriel>"
@@ -453,7 +454,7 @@ adjectif_feminin_pluriel:
 - "syndiquées"
 - "connectées"
 - "déconnectées"
-- "étranges"
+- "disjointes"
 
 adjectif_tous_genres_pluriel:
 - "<adjectif_masculin_pluriel>"
@@ -505,6 +506,7 @@ adjectif_pluriel:
 - "complexes"
 - "oubliables"
 - "hors-lignes"
+- "étranges"
 
 verbe:
 - "gérer la production [plus_loin]"
