@@ -106,6 +106,7 @@ start:
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
 - "comment <quelquechose> inspire <quelquechose> [fin]"
 - "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
+- "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 
 article:
 - "le"
@@ -374,6 +375,7 @@ adjectif_masculin:
 - "déconnecté"
 - "disjoint"
 - "professionnel"
+- "digital"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -403,6 +405,7 @@ adjectif_feminin:
 - "déconnectée"
 - "disjointe"
 - "professionnelle"
+- "digitale"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -455,6 +458,7 @@ adjectif_singulier:
 - "bidouillable"
 - "hackable"
 - "unitaire"
+- "digital"
 
 adjectif_masculin_pluriel:
 - "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
@@ -482,6 +486,7 @@ adjectif_masculin_pluriel:
 - "déconnectés"
 - "disjoints"
 - "professionnels"
+- "digitaux"
 
 adjectif_feminin_pluriel:
 - "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>"
@@ -510,6 +515,7 @@ adjectif_feminin_pluriel:
 - "déconnectées"
 - "disjointes"
 - "professionnelles"
+- "digitales"
 
 adjectif_pluriel:
 - "<plus_loin>"
