@@ -101,10 +101,10 @@ start:
 - "<techno>, un genre de <techno> <plus_loin_ou_quelquepart>"
 - "<techno>, <quelquechose_singulier> de <quelquechose>"
 - "quelle est la place pour <quelquechose> au sein de <quelquechose> [plus_loin_ou_quelquepart] ?"
-- "faut-il repenser <quelquechose> <plus_loin_ou_quelquepart> [fin]"
+- "faut-il repenser <quelquechose> <plus_loin_ou_quelquepart> ?"
 - "comment <verbe> avec des valeurs <adjectif_feminin_pluriel> [fin]"
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
-- "comment <quelquechose> inspire <quelquechose> [fin]"
+- "comment <quelquechose_singulier> inspire <quelquechose> [fin]"
 - "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
 - "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 
@@ -611,7 +611,7 @@ verbe:
 - "se laisser dépasser par <quelquechose> [plus_loin_ou_quelquepart]"
 - "réinventer <quelquechose>"
 - "éviter <quelquechose>"
-  
+
 plus_loin:
 - "de manière <adjectif_feminin>"
 - "à grande échelle"
