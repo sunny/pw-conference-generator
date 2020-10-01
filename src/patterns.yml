@@ -106,6 +106,7 @@ start:
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
 - "comment <quelquechose> inspire <quelquechose> [fin]"
 - "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
+- "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 
 article:
 - "le"
@@ -231,6 +232,7 @@ quelquechose_singulier:
 - "la containerisation"
 - "un side-project [adjectif_masculin]"
 - "la dystopie"
+- "le bus-factor"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose>"
@@ -301,6 +303,7 @@ quelquechose_pluriel_feminin:
 - "les technologies d’assistance"
 - "vos valeurs"
 - "les nouvelles réglementations"
+- "les propriétés personnalisées CSS"
 
 techno:
 - "React"
@@ -374,6 +377,7 @@ adjectif_masculin:
 - "déconnecté"
 - "disjoint"
 - "professionnel"
+- "digital"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -403,6 +407,7 @@ adjectif_feminin:
 - "déconnectée"
 - "disjointe"
 - "professionnelle"
+- "digitale"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -455,6 +460,8 @@ adjectif_singulier:
 - "bidouillable"
 - "hackable"
 - "unitaire"
+- "digital"
+- "réutilisable"
 
 adjectif_masculin_pluriel:
 - "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
@@ -482,6 +489,7 @@ adjectif_masculin_pluriel:
 - "déconnectés"
 - "disjoints"
 - "professionnels"
+- "digitaux"
 
 adjectif_feminin_pluriel:
 - "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>"
@@ -510,6 +518,7 @@ adjectif_feminin_pluriel:
 - "déconnectées"
 - "disjointes"
 - "professionnelles"
+- "digitales"
 
 adjectif_pluriel:
 - "<plus_loin>"
@@ -558,6 +567,7 @@ adjectif_pluriel:
 - "bidouillables"
 - "hackables"
 - "unitaires"
+- "réutilisables"
 
 verbe:
 - "gérer la production [plus_loin]"
@@ -638,6 +648,7 @@ plus_loin:
 - "en amélioration continue"
 - "avec des outils mal conçus"
 - "pour <verbe>"
+- "for good"
 
 quelquepart:
 - "chez Orange France"
