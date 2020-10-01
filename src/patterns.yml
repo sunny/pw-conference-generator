@@ -104,7 +104,8 @@ start:
 - "faut-il repenser <quelquechose> <plus_loin_ou_quelquepart> [fin]"
 - "comment <verbe> avec des valeurs <adjectif_feminin_pluriel> [fin]"
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
-- "comment <quelquechose> inspire <quelquechose> [fin]"
+- "comment <quelquechose_singulier> inspire <quelquechose> [fin]"
+- "comment <quelquechose_pluriel> inspirent <quelquechose> [fin]"
 - "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
 - "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 
