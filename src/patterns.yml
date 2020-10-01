@@ -303,6 +303,7 @@ quelquechose_pluriel_feminin:
 - "les technologies d’assistance"
 - "vos valeurs"
 - "les nouvelles réglementations"
+- "les propriétés personnalisées CSS"
 
 techno:
 - "React"
@@ -460,6 +461,7 @@ adjectif_singulier:
 - "hackable"
 - "unitaire"
 - "digital"
+- "réutilisable"
 
 adjectif_masculin_pluriel:
 - "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
@@ -565,6 +567,7 @@ adjectif_pluriel:
 - "bidouillables"
 - "hackables"
 - "unitaires"
+- "réutilisables"
 
 verbe:
 - "gérer la production [plus_loin]"
@@ -645,6 +648,7 @@ plus_loin:
 - "en amélioration continue"
 - "avec des outils mal conçus"
 - "pour <verbe>"
+- "for good"
 
 quelquepart:
 - "chez Orange France"
