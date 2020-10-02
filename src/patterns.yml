@@ -8,7 +8,7 @@ start:
 - "design <adjectif_masculin> [plus_loin_ou_quelquepart] [fin]"
 - "outils pour <quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart] [fin]"
 - "au secours, je dois <verbe> [quelquepart]"
-- "ne laissez plus <verbe> [fin]"
+- "ne laissez plus <verbe>"
 - "femmes du web, à nous de <verbe>"
 - "faire de la solidarité avec <quelquechose_ou_quelqun_ou_des_gens> [fin]"
 - "sortons <quelquechose_ou_quelqun_ou_des_gens> de la préhistoire"
@@ -127,9 +127,9 @@ quelquechose_ou_quelqun_ou_des_gens:
 - "<quelqun_ou_desgens>"
 
 quelquechose_ou_quelqun:
-- "<quelquechose>"
-- "<quelquechose>"
-- "<quelquechose>"
+- "<quelquechose_signulier>"
+- "<quelquechose_signulier>"
+- "<quelquechose_signulier>"
 - "<quelqun>"
 
 quelquechose_ou_des_gens:
