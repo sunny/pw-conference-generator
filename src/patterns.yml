@@ -712,6 +712,7 @@ plus_loin:
 - "avec des outils mal conçus"
 - "pour <verbe>"
 - "for good"
+- "en ligne de commande"
 
 quelquepart:
 - "chez Orange France"
@@ -744,6 +745,7 @@ quelquepart:
 - "dans le terminal"
 - "en agence"
 - "en local"
+- "dans le terminal"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
