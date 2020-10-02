@@ -254,6 +254,7 @@ quelquechose_singulier:
 - "un side-project [adjectif_masculin]"
 - "la dystopie"
 - "le bus-factor"
+- "la conférence Web"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>"
@@ -301,6 +302,7 @@ quelquechose_pluriel:
 - "les tests [adjectif_masculin_pluriel]"
 - "les Web Components"
 - "vos side-projects"
+- "les conférences Web"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -790,7 +792,7 @@ fin:
 - "(<plus_loin_ou_quelquepart>)"
 - "(<plus_loin>)"
 - "(<quelquepart>)"
-- "<plus_loin_ou_quelquepart>"
-- "<plus_loin>"
-- "<quelquepart>"
-- "une bonne fois pour toutes"
+- ", <plus_loin_ou_quelquepart>"
+- ", <plus_loin>"
+- ", <quelquepart>"
+- ", une bonne fois pour toutes"
