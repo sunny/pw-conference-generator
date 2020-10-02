@@ -82,7 +82,7 @@ start:
 - "vivre avec <quelquechose_pluriel> [plus_loin_ou_quelquepart]"
 - "<quelquechose> selon le W3C [fin]"
 - "les standards <techno> et <techno>, des origines à mercredi dernier"
-- "<quelquechose_ou_quelqun_ou_des_gens>, parent pauvre du Web ?"
+- "<quelquechose_ou_quelqun>, parent pauvre du Web ?"
 - "<verbe>, 15 minutes top chrono !"
 - "<techno> c’est maintenant (<techno> inclus)"
 - "comment ça c’est pas de <quelquechose> ?"
@@ -326,7 +326,7 @@ quelqun_ou_des_gens:
 quelqun:
 - "votre CTO"
 - "votre équipe"
-- "Tim"
+- "Tim Berners-Lee"
 - "mon designer"
 - "mon intégrateur"
 - "mon développeur"
