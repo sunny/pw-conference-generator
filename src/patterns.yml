@@ -340,6 +340,8 @@ quelqun:
 - "un amateur"
 - "un professionnel"
 - "une professionnelle"
+- "Mark Zuckerberg"
+- "moi"
 
 des_gens:
 - "les vieux de la vieille"
@@ -356,6 +358,7 @@ des_gens:
 - "les amateurs"
 - "les professionnels"
 - "les professionnelles"
+- "vous"
 
 techno:
 - "React"
