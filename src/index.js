@@ -93,8 +93,9 @@ const fixTypos = (text) => {
     .replace(/ à les /g, " aux ")
     .replace(/ de les /g, " des ")
     .replace(/ de des /g, " des ")
+    .replace(" j’ai dû se ", " j’ai dû me ")
     .replace(/ le ([aAeEiIoOuUué])/g, " l’$1")
-    .replace(/ de ([aAeEiIoOuUué])/g, " d’$1")
+    .replace(/ de ([aAeEiIoOuUué])/g, " d’$1");
 }
 
 const copy = (object) => {

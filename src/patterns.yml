@@ -106,7 +106,7 @@ start:
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
 - "comment <quelquechose_singulier> inspire <quelquechose> [fin]"
 - "comment <quelquechose_pluriel> inspirent <quelquechose> [fin]"
-- "dépassons l’idée que <quelquechose> suffit [plus_loin_ou_quelquepart] <fin>"
+- "dépassons l’idée que <quelquechose_singulier> suffit [plus_loin_ou_quelquepart] <fin>"
 - "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 
 article:
