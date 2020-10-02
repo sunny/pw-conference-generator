@@ -38,7 +38,7 @@ start:
 - "revue de <quelquechose> [plus_loin_ou_quelquepart] [fin]"
 - "demain, <quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart] [fin]"
 - "le secret de <quelquechose_ou_quelqun_ou_des_gens> [fin]"
-- "souriez, <quelquechose_ou_des_gens> [plus_loin_ou_quelquepart] deviennent réalité"
+- "souriez, <quelquechose_pluriel_ou_des_gens> [plus_loin_ou_quelquepart] deviennent réalité"
 - "souriez, <quelquechose_ou_quelqun> [plus_loin_ou_quelquepart] devient réalité"
 - "rendez-vous avec <quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart]"
 - "l’épopée de <quelquechose_ou_quelqun_ou_des_gens> [quelquepart]"
@@ -106,8 +106,8 @@ start:
 - "comment <verbe> avec des valeurs <adjectif_feminin_pluriel> [fin]"
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
 - "comment <quelquechose_ou_quelqun> inspire <quelquechose> [fin]"
-- "comment <quelquechose_ou_des_gens> inspirent <quelquechose> [fin]"
-- "dépassons l’idée que <quelquechose_ou_quelqun_ou_des_gens> suffit [plus_loin_ou_quelquepart] <fin>"
+- "comment <quelquechose_pluriel_ou_des_gens> inspirent <quelquechose> [fin]"
+- "dépassons l’idée que <quelquechose_ou_quelqun> suffit [plus_loin_ou_quelquepart] <fin>"
 - "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 
 article:
@@ -124,15 +124,15 @@ quelquechose_ou_quelqun_ou_des_gens:
 - "<quelquechose>"
 - "<quelquechose>"
 - "<quelquechose>"
-- "<quelqun_ou_desgens>"
+- "<quelqun_ou_des_gens>"
 
 quelquechose_ou_quelqun:
-- "<quelquechose_signulier>"
-- "<quelquechose_signulier>"
-- "<quelquechose_signulier>"
+- "<quelquechose_singulier>"
+- "<quelquechose_singulier>"
+- "<quelquechose_singulier>"
 - "<quelqun>"
 
-quelquechose_ou_des_gens:
+quelquechose_pluriel_ou_des_gens:
 - "<quelquechose_pluriel>"
 - "<quelquechose_pluriel>"
 - "<quelquechose_pluriel>"
@@ -319,7 +319,7 @@ quelquechose_pluriel_feminin:
 - "les nouvelles réglementations"
 - "les propriétés personnalisées CSS"
 
-quelqun_ou_desgens:
+quelqun_ou_des_gens:
 - <quelquun>
 - <des_gens>
 
@@ -671,11 +671,11 @@ verbe:
 - "recruter <plus_loin_ou_quelquepart>"
 
 plus_loin:
-- "de <quelqun_ou_desgens>"
-- "pour <quelqun_ou_desgens>"
-- "par <quelqun_ou_desgens>"
-- "comme <quelqun_ou_desgens>"
-- "à la manière de <quelqun_ou_desgens>"
+- "de <quelqun_ou_des_gens>"
+- "pour <quelqun_ou_des_gens>"
+- "par <quelqun_ou_des_gens>"
+- "comme <quelqun_ou_des_gens>"
+- "à la manière de <quelqun_ou_des_gens>"
 - "avec l’esprit de <quelqun>"
 - "de manière <adjectif_feminin>"
 - "à grande échelle"
