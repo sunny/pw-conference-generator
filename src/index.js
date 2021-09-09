@@ -98,6 +98,7 @@ const fixTypos = (text) => {
     .replace(/ le l’/g, " l’")
     .replace(/ le mon /g, " mon ")
     .replace(" j’ai dû se ", " j’ai dû me ")
+    .replace(" (moi devrait|vous devraient) ", " on devrait ")
     .replace(/ le ([aAeEiIoOuUué])/g, " l’$1")
     .replace(/ de ([aAeEiIoOuUué])/g, " d’$1");
 }
