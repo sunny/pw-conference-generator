@@ -60,7 +60,6 @@ start:
 - "pourquoi <quelqun> devrait s’intéresser à <quelquechose_ou_quelqun_ou_des_gens>"
 - "pourquoi <des_gens> devraient s’intéresser à <quelquechose_ou_quelqun_ou_des_gens>"
 - "les coulisses de <quelquechose> <quelquepart>"
-- "vers l’infini et au delà de <quelquechose>"
 - "<quelquechose_ou_quelqun_ou_des_gens>, reprendre le contrôle de <quelquechose_ou_quelqun_ou_des_gens>"
 - "<quelquechose_ou_quelqun_ou_des_gens>, un modèle transversal pour <quelquechose_ou_quelqun_ou_des_gens>"
 - "<quelquechose_ou_quelqun_ou_des_gens> 2.0"
@@ -109,6 +108,15 @@ start:
 - "comment <quelquechose_pluriel_ou_des_gens> inspirent <quelquechose> [fin]"
 - "dépassons l’idée que <quelquechose_ou_quelqun> suffit [plus_loin_ou_quelquepart] <fin>"
 - "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
+- "petit guide pratique pour <verbe> [fin]"
+- "<quelquechose> et <quelquechose> pour <verbe>"
+- "<quelquechose> ce n’est pas seulement <quelquechose> <plus_loin_ou_quelquepart>"
+- "<quelquechose>, <quelquechose> et <quelquechose> chez <des_gens> [fin]"
+- "tous sur <quelquechose>, quels enjeux <adjectif_masculin_pluriel> ?"
+- "palmarès des <quelquechose_pluriel> <plus_loin_ou_quelquepart> [fin]"
+- "mesurer l’impact de <quelquechose_ou_quelqun_ou_des_gens> sur <quelquechose>, <plus_loin_ou_quelquepart>"
+- "<quelquechose>, avant <quelquechose> [fin]"
+- "de <quelqun> à <quelqun> : guide <adjectif_singulier> <plus_loin>"
 
 article:
 - "le"
@@ -258,6 +266,12 @@ quelquechose_singulier:
 - "la cryptographie [adjectif_feminin]"
 - "le chiffrement de bout en bout"
 - "la stéganographie [adjectif_feminin]"
+- "le web"
+- "le jargon web"
+- "le militantisme"
+- "la microtypographie"
+- "la lecture en ligne"
+- "le climat"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>"
@@ -306,6 +320,7 @@ quelquechose_pluriel:
 - "les Web Components"
 - "vos side-projects"
 - "les conférences Web"
+- "les écrans [adjectif_masculin_pluriel]"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -347,6 +362,7 @@ quelqun:
 - "une professionnelle"
 - "Mark Zuckerberg"
 - "moi"
+- "une ado"
 
 des_gens:
 - "les vieux de la vieille"
@@ -364,6 +380,7 @@ des_gens:
 - "les professionnels"
 - "les professionnelles"
 - "vous"
+- "les ados"
 
 techno:
 - "React"
@@ -402,12 +419,15 @@ techno:
 - "VueJS"
 - "RSS"
 - "Rust"
-- "Rest"
+- "REST"
 - "CGI"
 - "Perl"
 - "Asm.js"
 - "Photoshop"
 - "Docker"
+- "PHP"
+- "HTTP/2"
+- "HTTP/3"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -522,6 +542,7 @@ adjectif_singulier:
 - "unitaire"
 - "digital"
 - "réutilisable"
+- "systémique"
 
 adjectif_masculin_pluriel:
 - "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>"
@@ -716,6 +737,8 @@ plus_loin:
 - "pour <verbe>"
 - "for good"
 - "en ligne de commande"
+- "en reconversion"
+- "au delà de <quelquechose>"
 
 quelquepart:
 - "chez Orange France"
@@ -786,7 +809,7 @@ fin:
 - ": retour d’expérience"
 - ", <verbe> les yeux fermés"
 - ": où en est-on ? Que peut-on faire ?"
-- ", c’est pas aussi simple qu'on le croit"
+- ". C’est pas aussi simple qu’on le croit"
 - ": un petit pas pour <quelquechose>, un grand pas pour <quelqun>"
 - ": pourquoi ? Comment ?"
 - ": retour d’expérience"
@@ -801,3 +824,4 @@ fin:
 - ", <plus_loin>"
 - ", <quelquepart>"
 - ", une bonne fois pour toutes"
+- ". Témoignage"
