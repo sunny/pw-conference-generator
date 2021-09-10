@@ -16,5 +16,6 @@ npm start
 Par exemple :
 
 ```sh
+npm run build
 rsync -r www/ sunfox:/var/www/dev.sunfox.org/paris-web/
 ```
