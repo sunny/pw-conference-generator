@@ -74,13 +74,13 @@ class RandomText {
 }
 
 const capitalize = (text) => {
-  return text.charAt(0).toUpperCase() + text.slice(1)
+  return text.replace(/(?:^|\. )(.)/g, text => text.toUpperCase())
 }
 
 const fixWhitespace = (text) => {
   return text
     .replace(/\s+/g, " ")
-    .replace(/ ([…,])/g, "$1")
+    .replace(/ ([.…,])/g, "$1")
     .replace(/ ([:?!])/g, "\xa0$1")
     .trim();
 }
@@ -89,11 +89,16 @@ const fixTypos = (text) => {
   return ` ${text} `
     .replace(/ à le /g, " au ")
     .replace(/ de le /g, " du ")
+    .replace(/ des vos /g, " de vos ")
     .replace(/ de un /g, " d’un ")
     .replace(/ à les /g, " aux ")
-    .replace(/ de les /g, " des ")
-    .replace(/ de des /g, " des ")
+    .replace(/ des? [dl]es /g, " des ")
+    .replace(/ les? [dl]es /g, " les ")
+    .replace(/ le [dl]e /g, " le ")
+    .replace(/ le l’/g, " l’")
+    .replace(/ le mon /g, " mon ")
     .replace(" j’ai dû se ", " j’ai dû me ")
+    .replace(" (moi devrait|vous devraient) ", " on devrait ")
     .replace(/ le ([aAeEiIoOuUué])/g, " l’$1")
     .replace(/ de ([aAeEiIoOuUué])/g, " d’$1");
 }
