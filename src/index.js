@@ -100,7 +100,8 @@ const fixTypos = (text) => {
     .replace(" j’ai dû se ", " j’ai dû me ")
     .replace(" (moi devrait|vous devraient) ", " on devrait ")
     .replace(/ le ([aAeEiIoOuUué])/g, " l’$1")
-    .replace(/ de ([aAeEiIoOuUué])/g, " d’$1");
+    .replace(/ de ([aAeEiIoOuUué])/g, " d’$1")
+    .replace(/ certaines (les|vos)/g, " certaines");
 }
 
 const copy = (object) => {

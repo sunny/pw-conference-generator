@@ -117,6 +117,20 @@ start:
 - "mesurer l’impact de <quelquechose_ou_quelqun_ou_des_gens> sur <quelquechose>, <plus_loin_ou_quelquepart>"
 - "<quelquechose>, avant <quelquechose> [fin]"
 - "de <quelqun> à <quelqun> : guide <adjectif_singulier> <plus_loin>"
+- "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> en situation <adjectif_feminin_singulier> !"
+- "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> <plus_loin> !"
+- "quand <techno> supplante <techno>"
+- "l’industrialisation de <quelqun_ou_des_gens> de <quelquechose>"
+- "<techno> : n’ayez plus peur de <quelquechose>"
+- "sous le capot de <quelquechose>"
+- "<quelquechose_anglais> by design : comment <verbe> <quelquechose_pluriel_ou_des_gens> ?"
+- "découvrez « le bon <techno> » et économisez du <techno> et du <techno>"
+- "designer <quelquechose_ou_quelqun> [plus_loin_ou_quelquepart]"
+- "objectifs 2025 de <quelquechose_ou_quelqun> <fin>"
+- "<techno> : que faire en tant que <quelqun> du <quelquechose> ?"
+- "le making-of du <techno> <fin>"
+- "bien doser l’utilisation de <techno> pour éviter <quelquechose> [plus_loin_ou_quelquepart]"
+- "pourquoi j’ai envie d’arrêter <quelquechose> ?"
 
 article:
 - "le"
@@ -272,6 +286,12 @@ quelquechose_singulier:
 - "la microtypographie"
 - "la lecture en ligne"
 - "le climat"
+- "le rebase"
+- "l’illectronisme"
+- "l’urgence"
+- "le numérique"
+- "l’idéation"
+- "la simplification"
 
 quelquechose_pluriel:
 - "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>"
@@ -321,6 +341,11 @@ quelquechose_pluriel:
 - "vos side-projects"
 - "les conférences Web"
 - "les écrans [adjectif_masculin_pluriel]"
+- "les navigateurs web"
+- "les services publics"
+- "les fournisseurs américains"
+- "les langages typés"
+- "les catastrophes"
 
 quelquechose_pluriel_feminin:
 - "les compétences"
@@ -336,10 +361,24 @@ quelquechose_pluriel_feminin:
 - "vos valeurs"
 - "les nouvelles réglementations"
 - "les propriétés personnalisées CSS"
+- "les catastrophes"
 
 quelqun_ou_des_gens:
 - <quelqun>
 - <des_gens>
+
+quelquechose_anglais:
+- "accessibility"
+- "animation"
+- "quality"
+- "security"
+- "data"
+- "surveillance"
+- "safety"
+- "trolling"
+- "performance"
+- "database"
+- "social networks"
 
 quelqun:
 - "votre CTO"
@@ -381,6 +420,7 @@ des_gens:
 - "les professionnelles"
 - "vous"
 - "les ados"
+- "les designers"
 
 techno:
 - "React"
@@ -428,6 +468,7 @@ techno:
 - "PHP"
 - "HTTP/2"
 - "HTTP/3"
+- "TypeScript"
 
 adjectif_masculin:
 - "<adjectif_masculin> et <adjectif_masculin>"
@@ -458,6 +499,7 @@ adjectif_masculin:
 - "disjoint"
 - "professionnel"
 - "digital"
+- "environnemental"
 
 adjectif_feminin:
 - "<adjectif_feminin> et <adjectif_feminin>"
@@ -488,6 +530,7 @@ adjectif_feminin:
 - "disjointe"
 - "professionnelle"
 - "digitale"
+- "environnementale"
 
 adjectif_singulier:
 - "<plus_loin>"
@@ -693,6 +736,7 @@ verbe:
 - "réinventer <quelquechose_ou_quelqun_ou_des_gens>"
 - "éviter <quelquechose_ou_quelqun_ou_des_gens>"
 - "recruter <plus_loin_ou_quelquepart>"
+- "éco-concevoir"
 
 plus_loin:
 - "de <quelqun_ou_des_gens>"
@@ -739,6 +783,7 @@ plus_loin:
 - "en ligne de commande"
 - "en reconversion"
 - "au delà de <quelquechose>"
+- "en situation <adjectif_feminin>"
 
 quelquepart:
 - "chez Orange France"
@@ -826,3 +871,9 @@ fin:
 - ", une bonne fois pour toutes"
 - ". Témoignage"
 - ". Retour d’expérience"
+- ": quels défis nous attendent ?"
+- ", tout savoir sur le référentiel de <quelquechose> de <quelquechose_ou_quelqun>"
+- ": commencer petit, viser loin"
+- "; reprenons les bases"
+- ", méthodo de tests de <techno> dans un monde <techno>"
+- ": comment éviter certaines <quelquechose_pluriel_feminin> dans <quelquechose_pluriel> ?"
