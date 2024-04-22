@@ -1,4 +1,6 @@
-# You can reference another tag with the following syntaxes:
+# All generations start with `start`.
+#
+# You can reference another pattern with the following syntaxes:
 #   <required>
 #   [optional]
 
@@ -81,7 +83,7 @@ start:
 - "vivre avec <quelquechose_pluriel> [plus_loin_ou_quelquepart]"
 - "<quelquechose> selon le W3C [fin]"
 - "les standards <techno> et <techno>, des origines à mercredi dernier"
-- "<quelquechose_ou_quelqun>, parent pauvre du Web ?"
+- "<quelquechose_ou_quelqun>, parent pauvre du web ?"
 - "<verbe>, 15 minutes top chrono !"
 - "<techno> c’est maintenant (<techno> inclus)"
 - "comment ça c’est pas de <quelquechose> ?"
@@ -106,6 +108,7 @@ start:
 - "<quelquechose>, est-ce soluble dans <quelquechose> ?"
 - "comment <quelquechose_ou_quelqun> inspire <quelquechose> [fin]"
 - "comment <quelquechose_pluriel_ou_des_gens> inspirent <quelquechose> [fin]"
+- "comment <quelqun> intègre <quelquechose> [fin]"
 - "dépassons l’idée que <quelquechose_ou_quelqun> suffit [plus_loin_ou_quelquepart] <fin>"
 - "<techno>-over-<techno>, la nouvelle tendance de <quelquechose> ?"
 - "petit guide pratique pour <verbe> [fin]"
@@ -123,14 +126,28 @@ start:
 - "l’industrialisation de <quelqun_ou_des_gens> de <quelquechose>"
 - "<techno> : n’ayez plus peur de <quelquechose>"
 - "sous le capot de <quelquechose>"
-- "<quelquechose_anglais> by design : comment <verbe> <quelquechose_pluriel_ou_des_gens> ?"
+- "<quelquechose_anglais> by design : comment <verbe> ?"
 - "découvrez « le bon <techno> » et économisez du <techno> et du <techno>"
 - "designer <quelquechose_ou_quelqun> [plus_loin_ou_quelquepart]"
-- "objectifs 2025 de <quelquechose_ou_quelqun> <fin>"
+- "objectifs <annee> de <quelquechose_ou_quelqun> <fin>"
 - "<techno> : que faire en tant que <quelqun> du <quelquechose> ?"
 - "le making-of du <techno> <fin>"
 - "bien doser l’utilisation de <techno> pour éviter <quelquechose> [plus_loin_ou_quelquepart]"
 - "pourquoi j’ai envie d’arrêter <quelquechose> ?"
+- "<techno> et <quelquechose> : <adjectif_singulier> ou <adjectif_singulier> ?"
+- "<techno> et <quelquechose> : vers un web <adjectif_masculin> ?"
+- "<techno> avec <techno> : on pousse encore plus loin <quelquechose_ou_quelqun_ou_des_gens>"
+- "<quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart] de la manière la plus <adjectif_feminin> et la plus <adjectif_feminin> possible"
+- "la fin de <quelquechose> ? <quelquechose_singulier> contre-attaque !"
+- "<quelquechose_ou_quelqun_ou_des_gens>, et si ça ne suffisait pas ?"
+- "le pouvoir de <quelquechose> <fin>"
+- "<quelquechose_pluriel> à ne plus montrer à <quelqun>"
+- "tu fais du <techno> et tu ne connais pas <quelquechose_ou_quelqun_ou_des_gens> ? Nan mais…"
+- "<quelquechose> : est-ce que je peux encore utiliser <quelquechose_ou_quelqun_ou_des_gens> ?"
+- "plaidoyer en faveur de <quelquechose_ou_quelqun_ou_des_gens> <fin>"
+- "<techno> <fin>"
+- "repolitisons <techno> [fin]"
+- "<quelquechose_ou_quelqun> <quelquepart>, contradictions et illusions"
 
 article:
 - "le"
@@ -817,6 +834,7 @@ quelquepart:
 - "en agence"
 - "en local"
 - "dans le terminal"
+- "en <annee>"
 
 plus_loin_ou_quelquepart:
 - "<plus_loin>"
@@ -878,3 +896,9 @@ fin:
 - ", méthodo de tests de <techno> dans un monde <techno>"
 - ": comment éviter certaines <quelquechose_pluriel_feminin> dans <quelquechose_pluriel> ?"
 - ", on en parle ?"
+- ": panorama des techniques de <quelquechose> en <annee>"
+- ", pixel par pixel"
+
+annee:
+- "2024"
+- "2025"
