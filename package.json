@@ -1,19 +1,28 @@
 {
   "name": "pw-conference-generator",
+  "version": "1.0.0",
+  "description": "Page to generate Paris Web talks",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server"
+    "build": "webpack --mode=production --node-env=production",
+    "start": "webpack-dev-server",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "babel-loader": "^8.1.0",
-    "copy-webpack-plugin": "^6.1.1",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@webpack-cli/generators": "^3.0.7",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
     "yaml-loader": "^0.6.0"
   },
   "dependencies": {

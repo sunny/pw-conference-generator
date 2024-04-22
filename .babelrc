@@ -1,11 +1,10 @@
 {
+  "plugins": ["@babel/syntax-dynamic-import"],
   "presets": [
     [
       "@babel/preset-env",
       {
-        "targets": {
-          "browsers": ["> 1%"]
-        }
+        "modules": false
       }
     ]
   ]

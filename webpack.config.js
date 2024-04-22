@@ -1,31 +1,28 @@
-const CopyPlugin = require('copy-webpack-plugin');
-const path = require('path');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-module.exports = {
-  context: path.resolve("src/"),
-  // Start here: /src/index.js
+const isProduction = process.env.NODE_ENV == "production";
+
+const config = {
   entry: {
-    index: [path.resolve(__dirname, "./src/index.js")],
+    index: "./src/index.js",
   },
-  // Put the bundled code here: /www/js/index.js
   output: {
-    path: path.resolve(__dirname, "./www/js/"),
-    filename: "[name].js",
+    path: path.resolve(__dirname, "www"),
+    filename: "js/index.js",
   },
   devServer: {
-    contentBase: path.join(__dirname, "./www"),
-    compress: true,
-    port: 4080,
-    index: "index.html",
-    watchContentBase: true,
-    writeToDisk: true,
+    static: "www",
+    open: true,
+    host: "localhost",
   },
+  plugins: [
+    new HtmlWebpackPlugin({template: "src/index.html"}),
+  ],
   module: {
     rules: [
       {
-        test: /\.js?$/,
-        exclude: /node_modules/,
-        query: { cacheDirectory: true },
+        test: /\.(js|jsx)$/i,
         loader: "babel-loader",
       },
       {
@@ -33,8 +30,18 @@ module.exports = {
         type: "json",
         use: "yaml-loader",
       },
+
+      // Add your rules for custom modules here
+      // Learn more about loaders from https://webpack.js.org/loaders/
     ],
   },
-  context: __dirname,
-  target: "web",
+};
+
+module.exports = () => {
+  if (isProduction) {
+    config.mode = "production"
+  } else {
+    config.mode = "development"
+  }
+  return config
 };
