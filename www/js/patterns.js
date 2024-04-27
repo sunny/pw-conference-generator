@@ -321,7 +321,7 @@ const patterns = {
     "les bonnes pratiques [adjectif_feminin_pluriel]",
     "les cookies [adjectif_masculin_pluriel]",
     "les supports multimédias [adjectif_masculin_pluriel]",
-    "les objects connectés [adjectif_masculin_pluriel]",
+    "les objets connectés [adjectif_masculin_pluriel]",
     "les lecteurs d’écran [adjectif_masculin_pluriel]",
     "les livres numériques [adjectif_masculin_pluriel]",
     "les Progressive Web Apps",
