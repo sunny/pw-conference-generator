@@ -9,6 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      # Magic
+      # (replace ?version with current git commit ref
+      # in order to invalidate the cache)
+      - name: Do the magic
+        run: |
+          export GIT_HEAD=$(cat .git/ORIG_HEAD)
+          sed -i "s/?version/?version=$GIT_HEAD/g" www/**/*.(html|js)
   
       # Deploy
       - name: Copying files

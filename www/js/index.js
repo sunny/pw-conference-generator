@@ -1,4 +1,4 @@
-import patterns from "./patterns.js";
+import patterns from "./patterns.js?version";
 
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector("[data-conference-generate]")
