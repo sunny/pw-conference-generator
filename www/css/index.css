@@ -50,6 +50,7 @@ html, body {
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
+  text-wrap: balance;
 }
 
 .conferenceName {
