@@ -15,5 +15,5 @@ npx http-server www -p 8000
 Par exemple :
 
 ```console
-rsync -r www/ sunfox:/var/www/dev.sunfox.org/paris-web/
+# line intentionally left blank
 ```
