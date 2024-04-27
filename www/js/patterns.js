@@ -1,3 +1,10 @@
+/* All generations start with `start`.
+ *
+ * You can reference another pattern with the following syntaxes:
+ *   <required>
+ *   [optional]
+ */
+
 const patterns = {
   start: [
     "autocritique de <quelquechose> [fin]",
