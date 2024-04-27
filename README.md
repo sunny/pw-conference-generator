@@ -6,17 +6,14 @@
 
 Cloner puis :
 
-```sh
-npm install
-npm run build
-npm start
+```console
+npx http-server www -p 8000
 ```
 
 ## Déploiement
 
 Par exemple :
 
-```sh
-npm run build
+```console
 rsync -r www/ sunfox:/var/www/dev.sunfox.org/paris-web/
 ```
