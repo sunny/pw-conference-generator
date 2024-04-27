@@ -88,7 +88,7 @@ const fixWhitespace = (text) => {
 const fixTypos = (text) => {
   return ` ${text} `
     .replace(/ à le /g, " au ")
-    .replace(/ de le /g, " du ")
+    .replace(/ d[eu] le /g, " du ")
     .replace(/ des vos /g, " de vos ")
     .replace(/ de un /g, " d’un ")
     .replace(/ que (une?) /g, " qu’$1 ")
