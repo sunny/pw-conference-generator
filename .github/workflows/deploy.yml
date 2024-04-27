@@ -14,7 +14,9 @@ jobs:
       # (replace ?version with current git commit ref
       # in order to invalidate the cache)
       - name: Do the magic
-        run: sed -i "s/?version/?version=$GITHUB_SHA/g" www/**/*.(html|js)
+        run: |
+          sed -i "s/?version/?version=$GITHUB_SHA/g" www/**/*.html
+          sed -i "s/?version/?version=$GITHUB_SHA/g" www/**/*.js
   
       # Deploy
       - name: Copying files
