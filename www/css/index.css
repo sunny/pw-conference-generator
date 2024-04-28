@@ -102,7 +102,11 @@ sans-serif;
 }
 
 .explanation::before {
-  --angle: 37.5;
+  --angle: 90;
+  --angle-as-percentage: calc(var(--angle) * 100 / 360);
+  --percentage-start: calc((50 - (var(--angle-as-percentage) / 2)) * 1%);
+  --percentage-end: calc((50 + (var(--angle-as-percentage) / 2)) * 1%);
+
   content: "";
   width: 100vw;
   height: 5dvh;
@@ -110,7 +114,13 @@ sans-serif;
   display: block;
   inset-block-start: -5dvh;
   inset-inline-start: 0;
-  background: conic-gradient(at 50% 0, var(--color-bg) calc(var(--angle) * 1%), var(--color-bg-highlight) calc(var(--angle) * 1%), var(--color-bg-highlight) calc((100 - var(--angle)) * 1%), var(--color-bg) calc((100 - var(--angle)) * 1%));
+  background: conic-gradient(
+    at 50% 0,
+    transparent var(--percentage-start),
+    var(--color-bg-highlight)  var(--percentage-start),
+    var(--color-bg-highlight) var(--percentage-end),
+    transparent var(--percentage-end)
+  );
 }
 
 .explanation__content {
