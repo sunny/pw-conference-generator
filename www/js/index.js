@@ -2,7 +2,8 @@ import patterns from "./patterns.js?version";
 
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector("[data-conference-generate]")
-  button.addEventListener("click", generateName);
+  button.disabled = false
+  button.addEventListener("click", generateName)
 
   window.addEventListener("popstate", init)
   init()

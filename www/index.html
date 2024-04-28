@@ -1,8 +1,12 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  />
+
   <title data-title="Générateur de conférences Paris Web">
     Générateur de conférences Paris Web
   </title>
@@ -17,15 +21,10 @@
 <body>
 
 <div class="container">
-  <div
-    class="conferenceName"
-    aria-live="assertive"
-    data-conference-name
-  ></div>
-  <button
-    class="btn"
-    data-conference-generate
-  >
+  <div class="conferenceName" aria-live="assertive" data-conference-name>
+    <noscript>Nécessite JavaScript pour fonctionner.</noscript>
+  </div>
+  <button class="btn" data-conference-generate disabled>
     Nouvelle conférence
   </button>
 </div>
@@ -38,7 +37,7 @@
       l’événement du 6 au 8 octobre 2022
       pour un web accessible et de qualité. ♥
     </p>
-    
+
     <p>
       Fabriqué par
       <a href="https://github.com/sunny/pw-conference-generator">
