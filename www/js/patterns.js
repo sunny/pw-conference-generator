@@ -5,7 +5,7 @@
  *   [optional]
  */
 
-const patterns = {
+export default {
   start: [
     "autocritique de <quelquechose> [fin]",
     "réinventons <quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart] [fin]",
@@ -150,14 +150,14 @@ const patterns = {
     "plaidoyer en faveur de <quelquechose_ou_quelqun_ou_des_gens> <fin>",
     "<techno> <fin>",
     "repolitisons <techno> [fin]",
-    "<quelquechose_ou_quelqun> <quelquepart>, contradictions et illusions"
+    "<quelquechose_ou_quelqun> <quelquepart>, contradictions et illusions",
   ],
   article: [
     "le",
     "le",
     "le",
     "mon",
-    "votre"
+    "votre",
   ],
   quelquechose_ou_quelqun_ou_des_gens: [
     "<quelquechose>",
@@ -166,26 +166,26 @@ const patterns = {
     "<quelquechose>",
     "<quelquechose>",
     "<quelquechose>",
-    "<quelqun_ou_des_gens>"
+    "<quelqun_ou_des_gens>",
   ],
   quelquechose_ou_quelqun: [
     "<quelquechose_singulier>",
     "<quelquechose_singulier>",
     "<quelquechose_singulier>",
-    "<quelqun>"
+    "<quelqun>",
   ],
   quelquechose_pluriel_ou_des_gens: [
     "<quelquechose_pluriel>",
     "<quelquechose_pluriel>",
     "<quelquechose_pluriel>",
-    "<des_gens>"
+    "<des_gens>",
   ],
   quelquechose: [
     "<quelquechose_singulier>",
     "<quelquechose_singulier>",
     "<quelquechose_pluriel>",
     "<quelquechose_pluriel>",
-    "[article] <techno>"
+    "[article] <techno>",
   ],
   quelquechose_singulier: [
     "le pooling",
@@ -311,7 +311,7 @@ const patterns = {
     "l’urgence",
     "le numérique",
     "l’idéation",
-    "la simplification"
+    "la simplification",
   ],
   quelquechose_pluriel: [
     "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>",
@@ -365,7 +365,7 @@ const patterns = {
     "les services publics",
     "les fournisseurs américains",
     "les langages typés",
-    "les catastrophes"
+    "les catastrophes",
   ],
   quelquechose_pluriel_feminin: [
     "les compétences",
@@ -381,7 +381,7 @@ const patterns = {
     "vos valeurs",
     "les nouvelles réglementations",
     "les propriétés personnalisées CSS",
-    "les catastrophes"
+    "les catastrophes",
   ],
   quelqun_ou_des_gens: [
     "<quelqun>",
@@ -398,7 +398,7 @@ const patterns = {
     "trolling",
     "performance",
     "database",
-    "social networks"
+    "social networks",
   ],
   quelqun: [
     "votre CTO",
@@ -421,7 +421,7 @@ const patterns = {
     "une professionnelle",
     "Mark Zuckerberg",
     "moi",
-    "une ado"
+    "une ado",
   ],
   des_gens: [
     "les vieux de la vieille",
@@ -440,7 +440,7 @@ const patterns = {
     "les professionnelles",
     "vous",
     "les ados",
-    "les designers"
+    "les designers",
   ],
   techno: [
     "React",
@@ -488,7 +488,7 @@ const patterns = {
     "PHP",
     "HTTP/2",
     "HTTP/3",
-    "TypeScript"
+    "TypeScript",
   ],
   adjectif_masculin: [
     "<adjectif_masculin> et <adjectif_masculin>",
@@ -519,7 +519,7 @@ const patterns = {
     "disjoint",
     "professionnel",
     "digital",
-    "environnemental"
+    "environnemental",
   ],
   adjectif_feminin: [
     "<adjectif_feminin> et <adjectif_feminin>",
@@ -550,7 +550,7 @@ const patterns = {
     "disjointe",
     "professionnelle",
     "digitale",
-    "environnementale"
+    "environnementale",
   ],
   adjectif_singulier: [
     "<plus_loin>",
@@ -605,7 +605,7 @@ const patterns = {
     "unitaire",
     "digital",
     "réutilisable",
-    "systémique"
+    "systémique",
   ],
   adjectif_masculin_pluriel: [
     "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>",
@@ -633,7 +633,7 @@ const patterns = {
     "déconnectés",
     "disjoints",
     "professionnels",
-    "digitaux"
+    "digitaux",
   ],
   adjectif_feminin_pluriel: [
     "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>",
@@ -662,7 +662,7 @@ const patterns = {
     "déconnectées",
     "disjointes",
     "professionnelles",
-    "digitales"
+    "digitales",
   ],
   adjectif_pluriel: [
     "<plus_loin>",
@@ -711,7 +711,7 @@ const patterns = {
     "bidouillables",
     "hackables",
     "unitaires",
-    "réutilisables"
+    "réutilisables",
   ],
   verbe: [
     "gérer la production [plus_loin]",
@@ -756,7 +756,7 @@ const patterns = {
     "réinventer <quelquechose_ou_quelqun_ou_des_gens>",
     "éviter <quelquechose_ou_quelqun_ou_des_gens>",
     "recruter <plus_loin_ou_quelquepart>",
-    "éco-concevoir"
+    "éco-concevoir",
   ],
   plus_loin: [
     "de <quelqun_ou_des_gens>",
@@ -803,7 +803,7 @@ const patterns = {
     "en ligne de commande",
     "en reconversion",
     "au delà de <quelquechose>",
-    "en situation <adjectif_feminin>"
+    "en situation <adjectif_feminin>",
   ],
   quelquepart: [
     "chez Orange France",
@@ -837,11 +837,11 @@ const patterns = {
     "en agence",
     "en local",
     "dans le terminal",
-    "en <annee>"
+    "en <annee>",
   ],
   plus_loin_ou_quelquepart: [
     "<plus_loin>",
-    "<quelquepart>"
+    "<quelquepart>",
   ],
   fin: [
     ": rien ne se perd, tout se transforme",
@@ -900,12 +900,10 @@ const patterns = {
     ": comment éviter certaines <quelquechose_pluriel_feminin> dans <quelquechose_pluriel> ?",
     ", on en parle ?",
     ": panorama des techniques de <quelquechose> en <annee>",
-    ", pixel par pixel"
+    ", pixel par pixel",
   ],
   annee: [
     2024,
-    2025
+    2025,
   ]
-};
-
-export default patterns;
+}
