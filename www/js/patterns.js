@@ -5,7 +5,7 @@
  *   [optional]
  */
 
-const patterns = {
+export default {
   start: [
     "autocritique de <quelquechose> [fin]",
     "réinventons <quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart] [fin]",
@@ -906,6 +906,4 @@ const patterns = {
     2024,
     2025
   ]
-};
-
-export default patterns;
+}
