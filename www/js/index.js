@@ -2,6 +2,7 @@ import RandomText from "./random-text.js?version"
 
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.querySelector("[data-conference-generate]")
+  button.disabled = false
   button.addEventListener("click", generateName)
 
   window.addEventListener("popstate", init)
