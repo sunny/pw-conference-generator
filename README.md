@@ -4,7 +4,7 @@
 
 ## Développement
 
-Cloner puis :
+Cloner puis lancer un serveur web local. Par exemple avec Node.js :
 
 ```console
 npx http-server www -p 8000
@@ -12,8 +12,4 @@ npx http-server www -p 8000
 
 ## Déploiement
 
-Par exemple :
-
-```console
-# line intentionally left blank
-```
+Un merge sur `main` déploie en production.
