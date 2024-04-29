@@ -42,7 +42,7 @@ html, body {
 }
 
 .container {
-  height: 100vh;
+  height: 92dvh;
   width: 100vw;
   padding: 4em 2em;
   box-sizing: border-box;
@@ -94,9 +94,33 @@ sans-serif;
 }
 
 .explanation {
+  position: relative;
+  margin-block-start: 5dvh;
   font-size: 1.2rem;
   padding: 1em;
   background: var(--color-bg-highlight);
+}
+
+.explanation::before {
+  --angle: 90;
+  --angle-as-percentage: calc(var(--angle) * 100 / 360);
+  --percentage-start: calc((50 - (var(--angle-as-percentage) / 2)) * 1%);
+  --percentage-end: calc((50 + (var(--angle-as-percentage) / 2)) * 1%);
+
+  content: "";
+  width: 100vw;
+  height: 5dvh;
+  position: absolute;
+  display: block;
+  inset-block-start: -5dvh;
+  inset-inline-start: 0;
+  background: conic-gradient(
+    at 50% 0,
+    transparent var(--percentage-start),
+    var(--color-bg-highlight)  var(--percentage-start),
+    var(--color-bg-highlight) var(--percentage-end),
+    transparent var(--percentage-end)
+  );
 }
 
 .explanation__content {
