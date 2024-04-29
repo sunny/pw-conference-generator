@@ -44,7 +44,7 @@ export default class RandomText {
     return text
       .replace(/\s+/g, " ")
       .replace(/ ([.…,])/g, "$1")
-      .replace(/ ([:?!])/g, "\xa0$1")
+      .replace(/ ([:;?!])/g, "\xa0$1")
       .trim()
   }
 
