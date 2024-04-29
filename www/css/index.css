@@ -93,34 +93,29 @@ sans-serif;
   cursor: not-allowed;
 }
 
-.explanation {
-  position: relative;
-  margin-block-start: 5dvh;
-  font-size: 1.2rem;
-  padding: 1em;
-  background: var(--color-bg-highlight);
-}
 
-.explanation::before {
+.explanation {
   --angle: 90;
   --angle-as-percentage: calc(var(--angle) * 100 / 360);
   --percentage-start: calc((50 - (var(--angle-as-percentage) / 2)) * 1%);
   --percentage-end: calc((50 + (var(--angle-as-percentage) / 2)) * 1%);
 
-  content: "";
-  width: 100vw;
-  height: 5dvh;
-  position: absolute;
-  display: block;
-  inset-block-start: -5dvh;
-  inset-inline-start: 0;
-  background: conic-gradient(
-    at 50% 0,
-    transparent var(--percentage-start),
-    var(--color-bg-highlight)  var(--percentage-start),
-    var(--color-bg-highlight) var(--percentage-end),
-    transparent var(--percentage-end)
-  );
+  font-size: 1.2rem;
+  padding: 1em;
+  padding-block-start: 5dvh;
+  background-color: var(--color-bg-highlight);
+  background:
+    conic-gradient(
+      at 50% 0,
+      transparent var(--percentage-start),
+      var(--color-bg-highlight)  var(--percentage-start),
+      var(--color-bg-highlight) var(--percentage-end),
+      transparent var(--percentage-end)
+    ),
+    linear-gradient(
+      transparent 5dvh,
+      var(--color-bg-highlight) 5dvh
+    );
 }
 
 .explanation__content {
