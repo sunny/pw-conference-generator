@@ -151,6 +151,18 @@ export default {
     "<techno> <fin>",
     "repolitisons <techno> [fin]",
     "<quelquechose_ou_quelqun> <quelquepart>, contradictions et illusions",
+    "comment <quelquechose_ou_quelqun> reflète et entretient <quelquechose> [fin]",
+    "il n’y a pas que <quelquechose_ou_quelqun_ou_des_gens> dans la vie",
+    "défendre et industrialiser <quelquechose_ou_quelqun_ou_des_gens> en tant que <quelqun_ou_des_gens>",
+    "appuyez sur Entrée pour <verbe>",
+    "penser <quelquechose_singulier> <adjectif_singulier> avec <quelquechose_ou_quelqun_ou_des_gens>",
+    "penser <quelquechose_pluriel> <adjectif_pluriel> avec <quelquechose_ou_quelqun_ou_des_gens>",
+    "l’instabilité de <quelquechose_ou_quelqun_ou_des_gens> nous empêche de <verbe>",
+    "double <quelquechose_singulier> : de quoi parle-t-on ?",
+    "au delà de <quelquechose> <fin>",
+    "<quelquechose_ou_quelqun> me donne littéralement envie de vomir",
+    "<quelquechose_ou_quelqun_ou_des_gens> me donnent littéralement envie de vomir",
+    "<quelquechose> pour l’offline <fin>"
   ],
   article: [
     "le",
@@ -249,6 +261,8 @@ export default {
     "le facteur humain [adjectif_masculin]",
     "la conduite de qualité [adjectif_feminin]",
     "ma Progressive Web App [adjectif_feminin]",
+    "ma Single Page App",
+    "ma Multi-Page App",
     "l’humanité",
     "le greenwashing",
     "l’anthropocène",
@@ -312,6 +326,8 @@ export default {
     "le numérique",
     "l’idéation",
     "la simplification",
+    "la notification du smartphone",
+    "le calendrier lunaire",
   ],
   quelquechose_pluriel: [
     "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>",
@@ -366,6 +382,7 @@ export default {
     "les fournisseurs américains",
     "les langages typés",
     "les catastrophes",
+    "les expériences utilisateur [adjectif_feminin_pluriel]",
   ],
   quelquechose_pluriel_feminin: [
     "les compétences",
@@ -382,6 +399,8 @@ export default {
     "les nouvelles réglementations",
     "les propriétés personnalisées CSS",
     "les catastrophes",
+    "les Single Page Apps",
+    "les expériences utilisateur",
   ],
   quelqun_ou_des_gens: [
     "<quelqun>",
@@ -520,6 +539,8 @@ export default {
     "professionnel",
     "digital",
     "environnemental",
+    "cognitif",
+    "ininterrompu"
   ],
   adjectif_feminin: [
     "<adjectif_feminin> et <adjectif_feminin>",
@@ -551,6 +572,8 @@ export default {
     "professionnelle",
     "digitale",
     "environnementale",
+    "cognitive",
+    "ininterrompue",
   ],
   adjectif_singulier: [
     "<plus_loin>",
@@ -634,6 +657,8 @@ export default {
     "disjoints",
     "professionnels",
     "digitaux",
+    "cognitifs",
+    "ininterrompus"
   ],
   adjectif_feminin_pluriel: [
     "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>",
@@ -663,6 +688,8 @@ export default {
     "disjointes",
     "professionnelles",
     "digitales",
+    "cognitives",
+    "ininterrompues"
   ],
   adjectif_pluriel: [
     "<plus_loin>",
@@ -838,6 +865,7 @@ export default {
     "en local",
     "dans le terminal",
     "en <annee>",
+    "dans la vie",
   ],
   plus_loin_ou_quelquepart: [
     "<plus_loin>",
@@ -901,9 +929,10 @@ export default {
     ", on en parle ?",
     ": panorama des techniques de <quelquechose> en <annee>",
     ", pixel par pixel",
+    ": penser réellement à <quelqun_ou_des_gens>",
   ],
   annee: [
-    2024,
     2025,
+    2026,
   ]
 }
