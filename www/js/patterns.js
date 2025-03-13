@@ -238,7 +238,7 @@ export default {
     "l’édition [adjectif_feminin]",
     "le Pair Design",
     "son application monolithe",
-    "la dépendance aux GAFA",
+    "la dépendance aux GAFAM",
     "la surveillance [plus_loin_ou_quelquepart]",
     "la qualité web [plus_loin_ou_quelquepart]",
     "le burnout [plus_loin_ou_quelquepart]",
