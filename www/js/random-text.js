@@ -52,7 +52,8 @@ export default class RandomText {
     return ` ${text} `
       .replace(/ à le /g, " au ")
       .replace(/ (de|du) le /g, " du ")
-      .replace(/ des vos /g, " de vos ")
+      .replace(" intégrant des vos ", " intégrant vos ")
+      .replace(" des vos ", " de vos ")
       .replace(/ de un /g, " d’un ")
       .replace(/ que (un|une) /g, " qu’$1 ")
       .replace(/ à les /g, " aux ")
