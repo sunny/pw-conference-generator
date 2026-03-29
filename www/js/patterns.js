@@ -153,7 +153,7 @@ export default {
     "<quelquechose_ou_quelqun> <quelquepart>, contradictions et illusions",
     "comment <quelquechose_ou_quelqun> reflète et entretient <quelquechose> [fin]",
     "il n’y a pas que <quelquechose_ou_quelqun_ou_des_gens> dans la vie",
-    "défendre et industrialiser <quelquechose_ou_quelqun_ou_des_gens> en tant que <quelqun_ou_des_gens>",
+    "défendre et industrialiser <quelquechose_ou_quelqun_ou_des_gens> en tant que <quelqun>",
     "appuyez sur Entrée pour <verbe>",
     "penser <quelquechose_singulier> <adjectif_singulier> avec <quelquechose_ou_quelqun_ou_des_gens>",
     "penser <quelquechose_pluriel> <adjectif_pluriel> avec <quelquechose_ou_quelqun_ou_des_gens>",
