@@ -123,7 +123,7 @@ export default {
     "mesurer l’impact de <quelquechose_ou_quelqun_ou_des_gens> sur <quelquechose>, <plus_loin_ou_quelquepart>",
     "<quelquechose>, avant <quelquechose> [fin]",
     "de <quelqun> à <quelqun> : guide <adjectif_singulier> <plus_loin>",
-    "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> en situation <adjectif_feminin_singulier> !",
+    "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> en situation <adjectif_feminin> !",
     "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> <plus_loin> !",
     "quand <techno> supplante <techno>",
     "l’industrialisation de <quelqun_ou_des_gens> de <quelquechose>",
