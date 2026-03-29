@@ -61,6 +61,7 @@ export default class RandomText {
       .replace(/ le (de|le) /g, " le ")
       .replace(/ le mon /g, " mon ")
       .replace(/ des mes /g, " mes ")
+      .replace(/ double (le |la |ma |l’)/g, " double ")
       .replace(" je dois se ", " je dois me ")
       .replace(" du HTML5 ", " d’HTML5")
       .replace(" le Firefox ", " Firefox ")
