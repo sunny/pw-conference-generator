@@ -890,6 +890,8 @@ export default {
     "AJAX",
     "SASS",
     "RGESN",
+    "IA",
+    "LLM",
   ],
   lettres_d_acronyme: [
     "H",
