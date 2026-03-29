@@ -932,7 +932,7 @@ export default {
     ": penser réellement à <quelqun_ou_des_gens>",
   ],
   annee: [
-    2025,
     2026,
+    2027,
   ]
 }
