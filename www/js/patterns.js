@@ -336,6 +336,7 @@ export default {
     "le calendrier lunaire",
     "votre code",
     "le collectif",
+    "l’intelligence artificielle",
   ],
   quelquechose_pluriel: [
     "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>",
@@ -392,6 +393,7 @@ export default {
     "les catastrophes",
     "les expériences utilisateur [adjectif_feminin_pluriel]",
     "les passkeys",
+    "les LLM",
   ],
   quelquechose_pluriel_feminin: [
     "les compétences",
@@ -410,6 +412,7 @@ export default {
     "les catastrophes",
     "les Single Page Apps",
     "les expériences utilisateur",
+    "les IA",
   ],
   quelqun_ou_des_gens: [
     "<quelqun>",
@@ -450,6 +453,8 @@ export default {
     "Mark Zuckerberg",
     "moi",
     "une ado",
+    "une IA agentique",
+    "un chatbot",
   ],
   des_gens: [
     "les vieux de la vieille",
@@ -517,6 +522,7 @@ export default {
     "HTTP/3",
     "TypeScript",
     "Unicode",
+    "IA",
   ],
   adjectif_masculin: [
     "<adjectif_masculin> et <adjectif_masculin>",
@@ -641,6 +647,8 @@ export default {
     "réutilisable",
     "systémique",
     "validiste",
+    "agentique",
+    "machine",
   ],
   adjectif_masculin_pluriel: [
     "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>",
@@ -890,8 +898,6 @@ export default {
     "AJAX",
     "SASS",
     "RGESN",
-    "IA",
-    "LLM",
   ],
   lettres_d_acronyme: [
     "H",
@@ -902,7 +908,6 @@ export default {
     "A",
     "A",
     "R",
-    "I",
   ],
   fin: [
     ": rien ne se perd, tout se transforme",
