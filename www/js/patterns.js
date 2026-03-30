@@ -123,7 +123,7 @@ export default {
     "mesurer l’impact de <quelquechose_ou_quelqun_ou_des_gens> sur <quelquechose>, <plus_loin_ou_quelquepart>",
     "<quelquechose>, avant <quelquechose> [fin]",
     "de <quelqun> à <quelqun> : guide <adjectif_singulier> <plus_loin>",
-    "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> en situation <adjectif_feminin_singulier> !",
+    "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> en situation <adjectif_feminin> !",
     "enrichissez vos projets en y intégrant des <quelquechose_pluriel_ou_des_gens> <plus_loin> !",
     "quand <techno> supplante <techno>",
     "l’industrialisation de <quelqun_ou_des_gens> de <quelquechose>",
@@ -153,7 +153,7 @@ export default {
     "<quelquechose_ou_quelqun> <quelquepart>, contradictions et illusions",
     "comment <quelquechose_ou_quelqun> reflète et entretient <quelquechose> [fin]",
     "il n’y a pas que <quelquechose_ou_quelqun_ou_des_gens> dans la vie",
-    "défendre et industrialiser <quelquechose_ou_quelqun_ou_des_gens> en tant que <quelqun_ou_des_gens>",
+    "défendre et industrialiser <quelquechose_ou_quelqun_ou_des_gens> en tant que <quelqun>",
     "appuyez sur Entrée pour <verbe>",
     "penser <quelquechose_singulier> avec <quelquechose_ou_quelqun_ou_des_gens>",
     "penser <quelquechose_pluriel> avec <quelquechose_ou_quelqun_ou_des_gens>",
@@ -162,7 +162,13 @@ export default {
     "au delà de <quelquechose> <fin>",
     "<quelquechose_ou_quelqun> me donne littéralement envie de vomir",
     "<quelquechose_ou_quelqun_ou_des_gens> me donnent littéralement envie de vomir",
-    "<quelquechose> pour l’offline <fin>"
+    "<quelquechose> pour l’offline <fin>",
+    "pour <quelquechose_singulier> <adjectif_singulier> [fin]",
+    "<quelquechose> : des normes à l’expérience <adjectif_feminin>",
+    "mettez de l’ordre dans <quelquechose_ou_quelqun> [fin]",
+    "<quelquechose> au travers de <quelquechose_ou_quelqun_ou_des_gens> [fin]",
+    "<quelquechose> même sans <quelquechose_ou_quelqun_ou_des_gens> ?",
+    "le <lettres_d_acronyme> de <acronyme> [fin]",
   ],
   article: [
     "le",
@@ -328,6 +334,9 @@ export default {
     "la simplification",
     "la notification du smartphone",
     "le calendrier lunaire",
+    "votre code",
+    "le collectif",
+    "l’intelligence artificielle",
   ],
   quelquechose_pluriel: [
     "les obstacles sur le chemin de <quelquechose_ou_quelqun_ou_des_gens>",
@@ -383,6 +392,8 @@ export default {
     "les langages typés",
     "les catastrophes",
     "les expériences utilisateur [adjectif_feminin_pluriel]",
+    "les passkeys",
+    "les LLM",
   ],
   quelquechose_pluriel_feminin: [
     "les compétences",
@@ -401,6 +412,7 @@ export default {
     "les catastrophes",
     "les Single Page Apps",
     "les expériences utilisateur",
+    "les IA",
   ],
   quelqun_ou_des_gens: [
     "<quelqun>",
@@ -441,6 +453,8 @@ export default {
     "Mark Zuckerberg",
     "moi",
     "une ado",
+    "une IA agentique",
+    "un chatbot",
   ],
   des_gens: [
     "les vieux de la vieille",
@@ -457,7 +471,6 @@ export default {
     "les amateurs",
     "les professionnels",
     "les professionnelles",
-    "vous",
     "les ados",
     "les designers",
   ],
@@ -508,6 +521,8 @@ export default {
     "HTTP/2",
     "HTTP/3",
     "TypeScript",
+    "Unicode",
+    "IA",
   ],
   adjectif_masculin: [
     "<adjectif_masculin> et <adjectif_masculin>",
@@ -540,7 +555,8 @@ export default {
     "digital",
     "environnemental",
     "cognitif",
-    "ininterrompu"
+    "ininterrompu",
+    "humain",
   ],
   adjectif_feminin: [
     "<adjectif_feminin> et <adjectif_feminin>",
@@ -574,6 +590,7 @@ export default {
     "environnementale",
     "cognitive",
     "ininterrompue",
+    "réelle",
   ],
   adjectif_singulier: [
     "<plus_loin>",
@@ -629,6 +646,9 @@ export default {
     "digital",
     "réutilisable",
     "systémique",
+    "validiste",
+    "agentique",
+    "machine",
   ],
   adjectif_masculin_pluriel: [
     "<adjectif_masculin_pluriel> et <adjectif_masculin_pluriel>",
@@ -658,7 +678,7 @@ export default {
     "professionnels",
     "digitaux",
     "cognitifs",
-    "ininterrompus"
+    "ininterrompus",
   ],
   adjectif_feminin_pluriel: [
     "<adjectif_feminin_pluriel> et <adjectif_feminin_pluriel>",
@@ -689,7 +709,7 @@ export default {
     "professionnelles",
     "digitales",
     "cognitives",
-    "ininterrompues"
+    "ininterrompues",
   ],
   adjectif_pluriel: [
     "<plus_loin>",
@@ -871,6 +891,24 @@ export default {
     "<plus_loin>",
     "<quelquepart>",
   ],
+  acronyme: [
+    "HTTPS",
+    "ARIA",
+    "GIF",
+    "AJAX",
+    "SASS",
+    "RGESN",
+  ],
+  lettres_d_acronyme: [
+    "H",
+    "T",
+    "P",
+    "S",
+    "A",
+    "A",
+    "A",
+    "R",
+  ],
   fin: [
     ": rien ne se perd, tout se transforme",
     ", de l’essence à la pratique [plus_loin_ou_quelquepart]",
@@ -930,6 +968,8 @@ export default {
     ": panorama des techniques de <quelquechose> en <annee>",
     ", pixel par pixel",
     ": penser réellement à <quelqun_ou_des_gens>",
+    ", en pratique",
+    "- regards croisés <quelqun>/<quelqun>",
   ],
   annee: [
     2026,
