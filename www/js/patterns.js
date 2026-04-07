@@ -169,6 +169,7 @@ export default {
     "<quelquechose> au travers de <quelquechose_ou_quelqun_ou_des_gens> [fin]",
     "<quelquechose> même sans <quelquechose_ou_quelqun_ou_des_gens> ?",
     "le <lettres_d_acronyme> de <acronyme> [fin]",
+    "Lightning talk : <start>",
   ],
   article: [
     "le",
