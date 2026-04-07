@@ -73,7 +73,7 @@ export default {
     "le jour où l’on n’aura plus besoin de <quelquechose_ou_quelqun_ou_des_gens> [plus_loin_ou_quelquepart]",
     "évaluer <quelquechose_ou_quelqun_ou_des_gens> : des méthodes simples et efficaces",
     "<quelquechose_pluriel> : vers de nouveaux usages dans <quelquechose_singulier> [plus_loin]",
-    "<techno> fait pousser mes tomates [quelquepart]",
+    "<techno> fait pousser mes <fruits_et_legumes> [quelquepart]",
     "<quelquechose_singulier> et comment on l’évite [plus_loin_ou_quelquepart] [fin]",
     "<techno> et comment on l’évite [plus_loin_ou_quelquepart] [fin]",
     "créer un clone de <techno> en <techno> [fin]",
@@ -523,6 +523,12 @@ export default {
     "TypeScript",
     "Unicode",
     "IA",
+  ],
+  fruits_et_legumes: [
+    "tomates",
+    "courgettes",
+    "haricots",
+    "fraises",
   ],
   adjectif_masculin: [
     "<adjectif_masculin> et <adjectif_masculin>",
